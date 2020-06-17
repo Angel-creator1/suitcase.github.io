@@ -1,0 +1,124 @@
+
+     
+     h2,h4{font-family: 'Pacifico';
+     margin: 25px;
+      color: blue;
+
+
+     }
+
+
+
+    
+    
+    div.reg {
+  width: 360px;
+  padding: 10px;
+  border: 0px solid black;
+  margin: -31px;
+  height: 578px;
+  background-color: white;
+
+
+
+
+}
+           
+
+img.l {
+  width: 10%;
+  height: auto;
+  padding: 30px
+  border-radius:30%;
+  position: absolute;
+  top: 19px;
+  left: calc(50% - 78px);
+  margin: 2px;
+ 
+
+
+
+}
+
+
+  ::-webkit-input-placeholder { /* Edge */
+  color: darkcyan;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: darkcyan;
+
+}
+
+::placeholder {
+  color:darkcyan;
+
+}
+input[type=text] {
+   width: 88%;
+  padding: 7px 0px;
+  margin: 6px 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+
+
+}
+input[type=email] {
+   width: 88%;
+  padding: 7px 0px;
+  margin: 6px 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+
+
+}
+input[type=password] {
+   width: 88%;
+  padding: 7px 0px;
+  margin: 6px 5px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+
+
+}
+input[type=submit] {
+  width: 80%;
+  padding: 10px 0px;
+  margin: 6px 0;
+  border: none;
+  background-color: lightblue;
+  font-size: 17px;
+  border-radius: 20px;
+  color: blue;
+
+
+}
+
+
+@media(max-width: 800px) {
+      body{
+        background:transparent;
+      }
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+           
+
+
