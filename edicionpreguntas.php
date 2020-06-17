@@ -9,6 +9,7 @@
 <header>
 	<body>	
 
+</svg>
 <br>
 <br>
 <br>
@@ -21,9 +22,9 @@
 	<td>
 		<br>
 
-		
 
-	
+
+
 	<h1 color="red"><center> Editar preguntas</center></h1>
 	<form method="POST" action="edicion2.php">
 
@@ -114,4 +115,3 @@
 
 
 </html>
-
