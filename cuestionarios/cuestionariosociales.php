@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Cuestionario</title>
-	<link rel="stylesheet" type="text/css" href="cuestionarioo.css">
+	<link rel="stylesheet" type="text/css" href="cuestionario.css">
 </head>
 <body>
 	<center>
@@ -35,13 +35,13 @@ if ($resultado) {
     $opcion4 = $fila['opcion4'];
     ?>
 
-    
- 
+
+
 
 
 			<h2><?php echo $Competencia_pregunta; ?></h2>
 
-           
+
 			</p>
 			</h4>
 
@@ -55,7 +55,7 @@ if ($resultado) {
                 <nav id="options">
 				<form method="POST" action="cuestionarios.php">
 					<h4>
-					
+
 
                    <br>
 
@@ -73,26 +73,26 @@ if ($resultado) {
                       <br>
 
                     <input type="radio" name="axino" value="3"><?php echo $opcion4; ?>
-                    
-                      <br>   
+
+                      <br>
 
 
-  
-             
 
-               
 
-				
-				<p> <input type="submit" name="e" value="siguiente">                                      
+
+
+
+
+				<p> <input type="submit" name="e" value="siguiente">
 			    </h4>
 			    </form>
                 </nav>
                 <br>
 
-               
 
 
-				   
+
+
 
 	</nav>
     </center>
@@ -105,8 +105,3 @@ if ($resultado) {
 
 </body>
 </html>
-
-
-
-
-

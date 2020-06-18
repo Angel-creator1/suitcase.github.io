@@ -7,9 +7,7 @@
 <link rel="icon" href="img/logo.png" type="image/jpg">
 </head>
 <header>
-	<body>	
-
-</svg>
+	<body>
 <br>
 <br>
 <br>

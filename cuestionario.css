@@ -1,5 +1,5 @@
 body {
-	background-color: lightgray;
+	background-color: rgba(192, 231, 230, 0.56);
 }
 h2 {
 	color: #124670;
@@ -10,10 +10,10 @@ a  {
 #pantallacuestionario {
 	width: 46%;
 	font-size: 100%;
-	background-color: white;
+	background-color: white ;
 	padding: 20px;
 	margin: 20px;
-	border: 3px solid black;
+	border: 1px rgb(0, 64, 255);
 }
 
 #options {
@@ -22,7 +22,7 @@ a  {
 	font-size: 100%;
 	padding: 1px;
 	margin: 1px;
-	border: 2px solid blue;
+ 	border: 2px rgb(33, 156, 152);
 
 }
 @media(max-width: 1100px) {

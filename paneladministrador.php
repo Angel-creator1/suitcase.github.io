@@ -19,26 +19,27 @@ if ($_SESSION['usuario'] == '') {
 	<meta charset="utf-8">
 	<title>Inicio suitcase</title>
 	<link rel="stylesheet" type="text/css" href="panel.css">
+	<link rel="icon" href="img/logo.png" type="image/png">
 </head>
 <body>
 
     <div class="left2">
 	 <nav class="men">
 			<form method="post" action="">
-				
 
-                
-             
-          
-	 </nav>		
+
+
+
+
+	 </nav>
     </div>
 
 <img src="img/logo.png" class="logo">
 
 	<div id="menu">
-		
+
 			<ul class="menu">
-				
+
 
 				<li><a href="">INICIO</a></li>
 				<li><a href="nosotros.html">NOTIFICACIONES</a></li>
@@ -47,18 +48,18 @@ if ($_SESSION['usuario'] == '') {
 		                 <ul>
 		                 	<li id="userdesplegable"><a href="">mi cuenta</a></li>
                          </ul>
-                <li><a href="">CERRAR SESIÓN</a> 
-                         <ul>      
+                <li><a href="">CERRAR SESIÓN</a>
+                         <ul>
                      		<li><a href="salir.php">Si</a></li>
                      		<li><a href="">No</a></li>
                      	 </ul>
-                     
+
             </ul>
-                     
+
     </div>
 
 		<br>
-		
+
 <h1 class="t">SUITCASE</h1>
 
 	<div class="left">
@@ -68,9 +69,9 @@ if ($_SESSION['usuario'] == '') {
 	    <br>
 	    <br>
 	    <br>
-	    
-	    
-	    
+
+
+
 
     </div>
 	<br>
@@ -112,6 +113,6 @@ if ($_SESSION['usuario'] == '') {
 
 
 	<center><a href="edicionpreguntas.php" name="edit" class="r">Editar cuestionarios</a></center>
-	
+
 </body>
 </html>

@@ -14,7 +14,7 @@ h1,h3,h2,p{
 }
 body {
 	font-family: 'Pacifico';
-	} 
+	}
 header {
 	width: 100%;
 	height: 60px;
@@ -28,8 +28,8 @@ header {
 }
 
 h1.s {
-    font-size: 250%;  
-    float: left;  
+    font-size: 250%;
+    float: left;
 
 }
 
@@ -43,7 +43,7 @@ h1.s {
 	margin: auto;
 }
 img {
-	
+
 	border-radius:none
 	padding: none;
     height: 49px;
@@ -90,6 +90,13 @@ div.a {
  	height: 95%;
 
  }
+
+ div.nos{
+	 background-color: #b5fff5;
+	 width: 104%;
+	 height: 80%;
+
+ }
  img.hoja1 {
  	width: 28%;
  	height: 13%;
@@ -103,11 +110,11 @@ img.logo2 {
 
 	width: 32%;
 	height: 40%;
-	
+
 }
 
 
-	
+
 }
 div.segundapagina {
 	background-color: #b2ffff;
@@ -149,7 +156,7 @@ a.r {
 	height: 100px;
 	text-decoration: none;
 	color: #000;
-	
+
 }
 button.r {
 	width: 160px;
@@ -158,7 +165,7 @@ button.r {
 	font-size: 15px;
 	font-weight: bold;
 	color: #124670;
-	
+
 
 }
 
