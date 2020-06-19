@@ -3,12 +3,24 @@
 <head>
 	<title>Cuestionario</title>
 	<link rel="stylesheet" type="text/css" href="cuestionario.css">
+	<link rel="icon" href="img/logo.png" type="image/jpg">
 </head>
 <body>
 
 			<p> <?php
 
-$competencia=$_POST['tipos'];
+			session_start();
+			error_reporting(0);
+			if ($_SESSION['usuario'] == '') {
+
+				echo "<h1>Usted no puede. ingresar</h1>";
+				die();
+			}
+			$_SESSION['usuario'];
+
+
+
+$competencia = $_POST['tipos'];
 
 echo "<center><h2>Cuestionario $competencia</h2></center>";
 
@@ -27,6 +39,11 @@ if ($resultado) {
     $opcion2 = $fila['opcion2'];
     $opcion3 = $fila['opcion3'];
     $opcion4 = $fila['opcion4'];
+
+
+
+
+
     ?>
 
     <center>
@@ -41,7 +58,7 @@ if ($resultado) {
 			</p>
 			</h4>
 
-				<h4> <?php echo $Contextualizacion; ?> </h4>
+			<p>	<h4> <?php echo $Contextualizacion; ?> </h4> </p>
 
 
 
@@ -49,40 +66,48 @@ if ($resultado) {
 
 
                 <nav id="options">
-				<form method="POST" action="cuestionarios.php">
-					<h4>
-
 
                    <br>
 
-                    <input type="radio" name="axino" value=""><?php echo $opcion1; ?>
 
-                      <br>
-
-                   <input type="radio" name="axino" value="2"><?php echo $opcion2; ?>
+									 <?php
 
 
-                      <br>
 
-                    <input type="radio" name="axino" value="3"><?php echo $opcion3; ?>
+									 $op1 = '<input type="checkbox" name="op1[]" value="1">' .$opcion1;
+ 										$opc = '<input type="checkbox" name="c[]" value="2">' .$opcion2;
+ 											$op3 = '<input type="checkbox" name="op3[]" value="3">' .$opcion3;
+ 												$op4 = '<input type="checkbox" name="op4[]" value="4">' .$opcion4;
 
-                      <br>
 
-                    <input type="radio" name="axino" value="3"><?php echo $opcion4; ?>
+ 												$preguntas = array($op1,$opc,$op3,$op4);
 
-                      <br>
+ 											$aux = array_unique($preguntas);
+ 											shuffle($aux);
+ 											?>
+                        <form class="" action="calificacion.php" method="post">
+ 												<?php
+ 											echo implode('<br>', array_chunk($aux, 4)[0]);
+ 											?>
 
-                      <br>
+
+
 
 
     </nav>
     </center>
 
-    <?php
 
-    }
+
+<?php
+
 }
-    ?>
+}
 
-</body>
+ ?>
+ <center> <input type="checkbox" name="Envia" value="<?php echo $competencia;?>">Listo</center>
+ <center><input type="submit" name="Enviar" value="Enviar"></center>
+
+ </form>
+ </body>
 </html>

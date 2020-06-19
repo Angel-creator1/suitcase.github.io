@@ -4,13 +4,13 @@
 <title>Registro suitcase</title>
 
 <link rel="icon" href="img/logo.png" type="image/jpg">
-<<<<<<< HEAD
+
 <LINK REL=StyleSheet HREF="registrostyle.css"type="text/css">
-=======
+
 <LINK REL=StyleSheet HREF="registroestilos.css"type="text/css">
->>>>>>> 24c14e93ab0827ad699c65bdc9849a3356351fdc
+
 <meta charset="UTF-8">
-</head>	
+</head>
 <body>
 <br>
 <br>
@@ -25,15 +25,15 @@
 	<td><!--la tabla es necesaria para que despliegue todo hacia abajo con el div-->
 		<br>
 
-	<center><img src="img/logo.png" class="l" alt="logo"></center>	
-		
+	<center><img src="img/logo.png" class="l" alt="logo"></center>
 
 
 
-	
+
+
 	<h2><center> Registrate gratis </center></h2>
 
-	
+
 <form method="post" action="registro2.php">
 
 <h5>* minimo 7 caractéres *</h5>
@@ -55,7 +55,7 @@
 
 <article>
 	<p><h4><a href="ingreso.php">Si ya estas registrado Incia sesión aquí</h4></p></a></article>
-	
+
 </td>
 </table>
 </center>

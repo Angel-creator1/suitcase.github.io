@@ -8,7 +8,6 @@ if ($_SESSION['usuario'] == '') {
 }
 
 
-
 ?>
 
 
@@ -49,7 +48,7 @@ if ($_SESSION['usuario'] == '') {
 			<ul class="menu">
 
 
-				<li><a href="">INICIO</a>
+				<li><a href="panelusuario.php">INICIO</a>
 				<li><a href="nosotros.html">NOTIFICACIONES</a>
 				<li><a href="">CREAR</a>
 				<li><a href="micuenta.php">MI CUENTA</a>
@@ -79,43 +78,59 @@ if ($_SESSION['usuario'] == '') {
 	<br>
 	<br>
 	<br>
+	<br>
+	<center><h2>Mi cuenta</h2></center>
+	<br>
+	<br>
 
+	<center><table width="60%"  cellspacing="20" cellpadding="20">
+   <tr>
+  <td>
+     <center><h3>Cambiar imagen de perfil</h3></center>
 
-	<nav>
-		<center><h3>Nuevos cuestionarios que te podrian interesar</h3></center>
-		    <br>
-				<br>
-		    <center><button>aaaaaa</button></center>
-        <br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button></center>
-				<br>
-				<br>
-				<center><button>aaaaaa</button></center>
+		 <center><svg version="1.1" width="120" height="120" viewBox="0 0 120 120">
+   <circle cx="60" cy="60" r="37"
+           fill="RoyalBlue" />
+ </svg></center>
+  </td>
+	<td><?php $esp = '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'; ?><center><h3>Angel</h3></center></td>
+	<td>
+    <center>
+			<h3>Mi Progreso</h3>
+			<center><svg version="1.1" width="120" height="120" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="37"
+            fill="RoyalBlue" />
+  </svg></center>
 
+		</center>
+  </td>
+</tr>
+<tr></tr>
+<center>
+	<tr>
+	<td colspan="3">
+		<h3>Cuestionarios completados</h3>
+		<br>
+		<div class="a">
+			<br>
+			<h4>hola my bros</h4>
+		</div>
+     <br>
+		<div class="a">
+			<br>
+			<h4>hola my bros</h4>
+		</div>
+     <br>
+		<div class="a">
+			<br>
+			<h4>hola my bros</h4>
+		</div>
+	</td>
+</tr>
+</center>
+		</table></center>
 
-	</nav>
-
-
-
-
-
-
+</nav>
 
 
 
