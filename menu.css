@@ -15,21 +15,21 @@ header label {
 	height: 100vh;
 	background: rgba(65,140,214,0.7);
 	transition: all 0.5s;
-	transform: translateX(-100%);
+	transform: rgb(37, 194, 228);
 }
 .menu a {
 	display: block;
-	color: #fff;
+	color: rgb(37, 194, 228);
 	height:58px;
 	text-decoration: none;
 	padding: 15px;
 	border-bottom: 1px soid rgba(65,140,214,0.7);
 }
 .menu a:hover {
-	background: rgba(255,255,0,0.5);
+	color: rgb(37, 194, 228);
 }
 #menu-bar:checked ~.menu {
-	transform: translateX(0%);
+	transform: rgb(37, 194, 228);
 }
 
 

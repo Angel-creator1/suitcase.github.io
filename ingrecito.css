@@ -1,5 +1,5 @@
 
-     
+
 
      h2{font-family: 'Pacifico' , 'cursive';
 
@@ -15,7 +15,7 @@
 
 
 
-    
+
     div.reg {
   width: 350px;
   padding: 2px;
@@ -23,14 +23,14 @@
   padding: 10px;
   border: 0px solid black;
   margin: 0;
-  height: 340px;
+  height: 380px;
   background-color: white;
- 
+
 
 
 
 }
-           
+
 
 img.l {
   width: 10%;
@@ -41,11 +41,12 @@ img.l {
   top: 19px;
   left: calc(50% - 78px);
   margin: 2px;
- 
+
 
 
 
 }
+
 
 
   ::-webkit-input-placeholder { /* Edge */
@@ -100,27 +101,8 @@ input[type=password] {
 
 }
 
-
 @media(max-width: 800px) {
       body{
         background:transparent;
       }
 }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-           
-
-

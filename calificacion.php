@@ -153,11 +153,11 @@ elseif ($totalrespuestas=40) {
 
 
 }
-include_once 'panelusuario.php';
 
         include("conexionbd.php");
          $con = New Conexion();
-        $sentencia="insert into Puntajes values('".$_SESSION[usuario]."','".$_POST[Envia]."','".$notab."')";
+         session_start();
+        $sentencia="insert into Puntajes values('".$_SESSION['usuario']."','".$_POST['Envia']."','".$notab."')";
         $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
 
 

@@ -14,51 +14,10 @@ body {
 	background-color: #eaeff0;
 	font-family: 'Pacifico';
 }
-
-.menu li a {
-    background-color:  #b2ffff;
-    color: #124670;
-    text-decoration: none;
-    padding: 3px 5px;
-    display: block;
-    width: 144px;
-    height: 35px;
-
-}
-.menu {
-	display: inline-flex;
-}
-
-.menu li a:hover {
-	background-color: #fff;
-
-}
-.menu li ul {
-	display: none;
-	position: absolute;
-	min-width: 120px;
-}
-.menu li:hover > ul{
-	display: block;
-}
-
-.menu {
-
-	position: absolute;
-	top: 4px;
-	left: calc(42% - 60px);
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	
-}
-
-
-
 nav.men {
 	position: absolute;
 	top: 70px;
-	
+
 	text-align: center;
 
 }
@@ -88,18 +47,11 @@ nav.men {
 .menu #userdesplegable li a{
 	width: 50px;
 }
-h1.t{
-    position: absolute;
-    top: 12px;
-    left: calc(21% - 60px);
-	width: 50%;
-	height: 100px;
-}
-h4.b{
+h4#b{
 	position: absolute;
-	top: 51px;
-	left: calc(40% - 74px);
-	
+	top: 47px;
+	left: calc(50% - 83px);
+
 }
 img.logo {
 	position: absolute;
@@ -108,40 +60,39 @@ img.logo {
 	width: 6%;
 	height:8%;
 }
-img.user {
+img#user {
 	position: absolute;
-	top: 9px;
-	left: calc(40% - 60px);
-	width: 30%;
-	height:40%;
+	top: -54px;
+	width: 110px;
+	height:93px;
+	left: calc(40% - 59px);
 }
-div.left {
-	width: 220px;
-	height: 76px;
-	border-right: solid black;
-	border: solid black;
-	position: absolute;
-	left: calc(3% - 56px);
-	top: -3px;
-	background-color: #fff;
-	padding: 2px;
+
+img.not{
+ width: 28px;
+ height: 20px;
 
 }
 
 div.left2 {
-	width: 220px;
-	height: 704px;
-	border-right: solid black;
-	border: solid black;
+	width: 240px;
+	height: 664px;
 	position: absolute;
-	left: calc(4% - 66px);
-	top: 90px;
-	background-color: #fff;
+	left: calc(2% - 28px);
+	top: 150px;
+		background-color: #eaeff0;
+
 }
-iframe{
-	position: absolute;
-	top: 130px;
-	left: calc(38% - 55px);
+
+nav.principal{
+  position: absolute;
+	top: 73px;
+	width: 83%;
+	height: 530px;
+  background-color: white;
+	left: calc(30% - 196px);
+
+
 }
 
 
@@ -185,12 +136,15 @@ iframe{
 }
 input[type=submit] {
 
-  width: 56%;
-  padding: 12px 0px;
-  margin: 6px 0;
+  width: 65%;
+  padding: 15px 0px;
+  margin: 3px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid blue;
+	background-color: white;
+	font-size: 'Pacifico';
+	font-weight: bold;
+	color: #124670;
 
 }
 
@@ -205,5 +159,8 @@ input[type=submit] {
   text-decoration: none;
   background-color: lightgreen;
 }
-
-
+.contenedorprincipal .contenedor .contenedor-carrusel .video{
+	display: flex;
+	float: flex;
+	display: block;
+}

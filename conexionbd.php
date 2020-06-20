@@ -1,7 +1,7 @@
 <?php
 class Conexion extends mysqli
 {
-  
+
   private $DB_HOST = 'localhost';
   private $DB_USER = 'root';
   private $DB_PASS = '';
@@ -17,12 +17,12 @@ public  function __construct()
 if(mysqli_connect_errno())
 {
     print("fallo la conexion");
-    
+
 }
 else
 {
-     print("Conectado a suitcase");
     
+
 }
 
 }

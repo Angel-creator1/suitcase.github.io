@@ -8,6 +8,7 @@ if ($_SESSION['usuario'] == '') {
 }
 
 
+
 ?>
 
 
@@ -21,10 +22,16 @@ if ($_SESSION['usuario'] == '') {
 	<link rel="stylesheet" type="text/css" href="panel.css">
 	<link rel="icon" type="image/jpg" href="img/logo.png">
 	<link rel="stylesheet" type="text/css" href="estilospagina.css">
+	<link rel="stylesheet" href="font/fontello.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <div class="left2">
+			<h4 id="b"><?php echo $_SESSION['usuario'] ?> </h4>
+		 <center><a href="micuenta.php"><img src="img/user2.png" id="user"></a></center>
+
 	 <nav class="men">
 			<ul>
 				<form method="post" action="cuestionario.php">
@@ -37,49 +44,34 @@ if ($_SESSION['usuario'] == '') {
                 <INPUT TYPE="submit" VALUE="Quimica" name ="tipos"></INPUT>
                 <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" id="simulacro"></INPUT>
 
-
+ </form>
 	 </nav>
     </div>
 
-<img src="img/logo.png" class="logo">
+		<header>
 
-	<div id="menu">
+			<div class="contenedor">
 
-			<ul class="menu">
+				<h1 class="s"><img src="img/logo.png">SUITCASE</h1>
+				<input type="checkbox" id="menu-bar">
+				<label class="icon-menu"for="menu-bar"></label>
+				<nav class="menu">
+					<a href="panelusuario.php">INICIO</a>
+					<a href="micuenta.php">MI CUENTA</a>
+					<a href="crearformulario.php">CREAR</a>
+					<a href="notificaciones.php"><img src="img/not.svg" class="not"></a>
+				  <a href="salir.php">SALIR</a>
+				</nav>
 
-
-				<li><a href="panelusuario.php">INICIO</a>
-				<li><a href="nosotros.html">NOTIFICACIONES</a>
-				<li><a href="">CREAR</a>
-				<li><a href="micuenta.php">MI CUENTA</a>
-		                 <ul>
-		                 	<li id="userdesplegable"><a href="micuenta.php">mi cuenta</a></li>
-                         </ul>
-                <li><a href="">CERRAR SESIÓN</a>
-                         <ul>
-                     		<li><a href="salir.php">Cerrar sesión</a></li>
-                     		<li><a href="">Cancelar</a></li>
-                     	 </ul>
-
-            </ul>
-
-    </div>
+			</div>
+		</header>
 
 		<br>
-
-<h1 class="t">SUITCASE</h1>
-
-	<div class="left">
-
-	    <h4 class="b"><?php echo $_SESSION['usuario'] ?> </h4>
-	    <a href=""><img src="img/user2.png" class="user"></a>
-
-    </div>
 	<br>
 	<br>
 	<br>
 	<br>
-	<center><h2>Mi cuenta</h2></center>
+	<center><h1 class="c">Mi cuenta</h1></center>
 	<br>
 	<br>
 
@@ -93,7 +85,9 @@ if ($_SESSION['usuario'] == '') {
            fill="RoyalBlue" />
  </svg></center>
   </td>
-	<td><?php $esp = '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'; ?><center><h3>Angel</h3></center></td>
+	<td><?php $esp = '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'; ?>
+	           <?php echo $esp;
+						       echo $esp; ?></td>
 	<td>
     <center>
 			<h3>Mi Progreso</h3>
@@ -108,7 +102,7 @@ if ($_SESSION['usuario'] == '') {
 <tr></tr>
 <center>
 	<tr>
-	<td colspan="3">
+	<td colspan="30">
 		<h3>Cuestionarios completados</h3>
 		<br>
 		<div class="a">

@@ -22,10 +22,16 @@ if ($_SESSION['usuario'] == '') {
 	<link rel="stylesheet" type="text/css" href="panel.css">
 	<link rel="icon" type="image/jpg" href="img/logo.png">
 	<link rel="stylesheet" type="text/css" href="estilospagina.css">
+	<link rel="stylesheet" href="font/fontello.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <div class="left2">
+			<h4 id="b"><?php echo $_SESSION['usuario'] ?> </h4>
+		 <center><a href="micuenta.php"><img src="img/user2.png" id="user"></a></center>
+
 	 <nav class="men">
 			<ul>
 				<form method="post" action="cuestionario.php">
@@ -38,80 +44,63 @@ if ($_SESSION['usuario'] == '') {
                 <INPUT TYPE="submit" VALUE="Quimica" name ="tipos"></INPUT>
                 <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" id="simulacro"></INPUT>
 
-
+ </form>
 	 </nav>
     </div>
 
-<img src="img/logo.png" class="logo">
+		<header>
 
-	<div id="menu">
+			<div class="contenedor">
 
-			<ul class="menu">
+				<h1 class="s"><img src="img/logo.png">SUITCASE</h1>
+				<input type="checkbox" id="menu-bar">
+				<label class="icon-menu"for="menu-bar"></label>
+				<nav class="menu">
+					<a href="panelusuario.php">INICIO</a>
+					<a href="micuenta.php">MI CUENTA</a>
+					<a href="crearformulario.php">CREAR</a>
+					<a href="notificaciones.php"><img src="img/not.svg" class="not"></a>
+				  <a href="salir.php">SALIR</a>
+				</nav>
+
+			</div>
+		</header>
+	  <br>
 
 
-				<li><a href="">INICIO</a>
-				<li><a href="nosotros.html">NOTIFICACIONES</a>
-				<li><a href="">CREAR</a>
-				<li><a href="micuenta.php">MI CUENTA</a>
-		                 <ul>
-		                 	<li id="userdesplegable"><a href="micuenta.php">mi cuenta</a></li>
-                         </ul>
-                <li><a href="">CERRAR SESIÓN</a>
-                         <ul>
-                     		<li><a href="salir.php">Cerrar sesión</a></li>
-                     		<li><a href="">Cancelar</a></li>
-                     	 </ul>
-
-            </ul>
-
-    </div>
+	<nav class="principal">
 
 		<br>
+		<h3>&nbsp&nbsp&nbspNuevos VIDEOS que te podrian interesar:</h3>
+		<br>
 
-<h1 class="t">SUITCASE</h1>
+		&nbsp&nbsp&nbsp&nbsp&nbsp<iframe width="270" height="178" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	<div class="left">
+		<iframe width="270" height="178" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	    <h4 class="b"><?php echo $_SESSION['usuario'] ?> </h4>
-	    <a href=""><img src="img/user2.png" class="user"></a>
+		<iframe width="270" height="178" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    </div>
-	<br>
-	<br>
-	<br>
+		<iframe width="270" height="178" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-	<nav>
-		<center><h3>Nuevos cuestionarios que te podrian interesar</h3></center>
-		    <br>
-				<br>
-		    <center><button>aaaaaa</button></center>
-        <br>
-				<br>
-				<center><button>aaaaaa</button>
 				<br>
 				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button>
-				<br>
-				<br>
-				<center><button>aaaaaa</button></center>
-				<br>
-				<br>
-				<center><button>aaaaaa</button></center>
+				<h3>Cuestionarios que te peden interesar:</h3>
+
+
+
+
+
+
+
+
 
 
 	</nav>
-
-
 
 
 
