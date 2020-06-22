@@ -7,7 +7,6 @@
 
 <LINK REL=StyleSheet HREF="registrostyle.css"type="text/css">
 
-<LINK REL=StyleSheet HREF="registroestilos.css"type="text/css">
 
 <meta charset="UTF-8">
 </head>
@@ -47,7 +46,7 @@
 <p><center><input  name="cc" type="password" placeholder="Confirmar contraseña"></center></p>
 
 
-<p><input name="a" type="checkbox"><a href="">Acepto terminos y condiciones</a><center></input></center></p></center>
+<p><input name="a" type="checkbox" value="si"><a href="">Acepto terminos y condiciones</a><center></input></center></p></center>
 
 <p><center><input name="p" type="submit" value="Registrarme"></input></center></p>
 </form>

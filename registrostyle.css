@@ -1,5 +1,5 @@
 
-     
+
      h2,h4{font-family: 'Pacifico';
      margin: 25px;
       color: blue;
@@ -9,8 +9,8 @@
 
 
 
-    
-    
+
+
     div.reg {
   width: 360px;
   padding: 10px;
@@ -23,7 +23,7 @@
 
 
 }
-           
+
 
 img.l {
   width: 10%;
@@ -34,7 +34,7 @@ img.l {
   top: 19px;
   left: calc(50% - 78px);
   margin: 2px;
- 
+
 
 
 
@@ -104,21 +104,3 @@ input[type=submit] {
         background:transparent;
       }
 }
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-           
-
-

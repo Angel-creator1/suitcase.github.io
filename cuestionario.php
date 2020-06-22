@@ -30,6 +30,7 @@ $consulta="SELECT * FROM cuestionarios WHERE Componente='$competencia'";
 $resultado=mysqli_query($conexion, $consulta);
 
 
+
 if ($resultado) {
  while ($fila = $resultado->fetch_array()) {
  	$Competencia_pregunta = $fila['Competencia_pregunta'];
@@ -39,6 +40,7 @@ if ($resultado) {
     $opcion2 = $fila['opcion2'];
     $opcion3 = $fila['opcion3'];
     $opcion4 = $fila['opcion4'];
+		$imagen = $fila['Imagen'];
 
 
 
@@ -56,7 +58,9 @@ if ($resultado) {
 
 
 			</p>
-			</h4>
+			<h4>
+  <img src="<?php echo $imagen; ?>">
+							</h4>
 
 			<p>	<h4> <?php echo $Contextualizacion; ?> </h4> </p>
 

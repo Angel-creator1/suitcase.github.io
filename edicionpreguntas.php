@@ -24,7 +24,7 @@
 
 
 	<h1 color="red"><center> Editar preguntas</center></h1>
-	<form method="POST" action="edicion2.php">
+	<form method="POST" action="edicion2.php" enctype="multipart/form-data">
 
 
 		<h2>Componente</h2>
@@ -130,6 +130,8 @@
 <br>
 <h2>Contextualización</h2>
 <center><textarea name="contextualizacion" rows="4" cols="20" placeholder="contextualizacion" class="context"></textarea></center>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen"></input></center>
 <h2>Pregunta</h2>
 <center><textarea name="pregunta" rows="4" cols="20" placeholder="pregunta" class="pregunta"></textarea></center>
 <h3>opcion1</h3>
@@ -139,7 +141,7 @@
 <h3>opcion3</h3>
 <center><textarea name="opcion3" rows="4" cols="20" placeholder="opcion 3" class="opciones"></textarea></center>
 <h3>opcion4</h3>
-<center><textarea name="opcion3" rows="4" cols="20" placeholder="opcion 4" class="opciones"></textarea></center>
+<center><textarea name="opcion4" rows="4" cols="20" placeholder="opcion 4" class="opciones"></textarea></center>
 <br>
 
 <input type="submit" value="Guardar cambios"></input>

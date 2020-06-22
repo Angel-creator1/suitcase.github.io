@@ -36,12 +36,12 @@ if ($_SESSION['usuario'] == '') {
 			<ul>
 				<form method="post" action="cuestionario.php">
 
-				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Ingles" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Fisica" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Ciencias sociales" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Quimica" name ="tipos"></INPUT>
+				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Ingles" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Fisica" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Ciencias sociales" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Quimica" name ="tipos" class="cu"></INPUT>
                 <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" id="simulacro"></INPUT>
 
  </form>
@@ -78,12 +78,11 @@ if ($_SESSION['usuario'] == '') {
 	<center><table width="60%"  cellspacing="20" cellpadding="20">
    <tr>
   <td>
-     <center><h3>Cambiar imagen de perfil</h3></center>
 
-		 <center><svg version="1.1" width="120" height="120" viewBox="0 0 120 120">
-   <circle cx="60" cy="60" r="37"
-           fill="RoyalBlue" />
- </svg></center>
+		 <center><img src="img/user2.png" class="fp" ></center>
+
+ <center><h3>Cambiar imagen de perfil</h3></center>
+ <input type="file" value="subir foto"></input>
   </td>
 	<td><?php $esp = '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp'; ?>
 	           <?php echo $esp;

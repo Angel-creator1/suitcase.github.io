@@ -94,7 +94,7 @@ echo "<br>";
 $totalrespuestas = $num_countries1+$num_countries2+$num_countries3+$num_countries4;
 
 if ($totalrespuestas>40 && $totalrespuestas<42) {
-  $notab = $nota-6;
+  $notab = $nota-10;
   echo "<h2>Tu puntaje es de $notab, has respondido doble
    en alguna pregunta ten mas cuidado</h2>
    <p>Te recomendamos las siguientes asesorias</p>";
@@ -121,8 +121,8 @@ elseif ($totalrespuestas>42 && $totalrespuestas<46 ) {
 
 
 }
-elseif ($totalrespuestas>46) {
-  $notab = $nota-35;
+elseif ($totalrespuestas>46 && $totalrespuestas<54) {
+  $notab = $nota-55;
   echo "<h2>Parece que no has estado muy antento, has respondido doble en demasiadas preguntas, tu puntaje es de $notab
   <p>Te recomendamos ver las siguientes asesorias</p>";
 
@@ -160,10 +160,17 @@ elseif ($totalrespuestas=40) {
         $sentencia="insert into Puntajes values('".$_SESSION['usuario']."','".$_POST['Envia']."','".$notab."')";
         $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
 
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tu puntaje</title>
+</head>
+<body>
 
+	<button>
+		<a href="panelusuario.php">Volver al inicio</a>
+	</button>
 
-
-
-
-
- ?>
+</body>
+</html>

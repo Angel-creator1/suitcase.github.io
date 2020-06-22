@@ -1,12 +1,14 @@
 <?php
 
 
+
 insertado($_POST['n'],$_POST['co'],$_POST['c'],$_POST['cc']);
 
 function insertado($NOMBRE_DE_USUARIO,$CORREO_ELECTRONICO,$CONTRASENA,$CONFIRMAR_CONTRASENA)
 {
 
-  
+if (isset($_POST['a'])){
+
     if (strlen($NOMBRE_DE_USUARIO) < 7 || strlen($NOMBRE_DE_USUARIO) > 24){
           echo'<script type="text/javascript">
           alert("Nombre de usuario muy corto o muy largo");
@@ -26,15 +28,15 @@ function insertado($NOMBRE_DE_USUARIO,$CORREO_ELECTRONICO,$CONTRASENA,$CONFIRMAR
 
          if ($CONTRASENA == $CONFIRMAR_CONTRASENA) {
 
-include("conexionbd.php");  
+include("conexionbd.php");
  $con = New Conexion();
-$sentencia="insert into registros values('".$NOMBRE_DE_USUARIO."','".$CORREO_ELECTRONICO."','".$CONTRASENA."','".$CONFIRMAR_CONTRASENA."')"; 
+$sentencia="insert into registros values('".$NOMBRE_DE_USUARIO."','".$CORREO_ELECTRONICO."','".$CONTRASENA."','".$CONFIRMAR_CONTRASENA."')";
 $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
   echo'<script type="text/javascript">
     alert("Registro exitoso");
     window.location.href="ingreso.php";
     </script>';
-} 
+}
 
 
         else{
@@ -49,18 +51,12 @@ $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
  }
  }
  }
-    
+ else {
+   echo '<script type="text/javascript">
+   alert("Por favor aceptar terminos y condiciones");
+   window.location.href="registro.php";
+   </script>';
+ }
+}
 
-	
 ?>
-
-
-
-
-
-
-
-
-
-
-

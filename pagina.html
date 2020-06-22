@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="font/fontello.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body bgcolor="#eaeff0">
 
@@ -150,27 +149,7 @@
 <br>
 
 <br>
-<p>
-  <center><button type="button" class="r"><a href="registro.php" class="r">REGISTRATE AQUÍ</a></button>
-  <br>
-  <br>
-  <br>
 
-  <h3>O si ya estas registrado</h3>
-  <br>
-  <br>
-  <br>
-
-  <button type="button" class="r"><a href="ingreso.php" class="r">INGRESA AQUI</a></button></center>
- </p>
-  <br>
-  <br>
-  <br>
-
-
-
-  <br>
-  <br>
 
 
 
@@ -222,6 +201,39 @@ function carrusel(contenedo){
 
 
     </script>
+
+		<center><div class="reg">
+
+			<td><!--la tabla es necesaria para que despliegue todo hacia abajo con el div-->
+				<br>
+
+			<center><img src="img/logo.png" class="l" alt="logo"></center>
+
+
+			<h2><center> Registrate gratis </center></h2>
+
+
+		<form method="post" action="registro2.php">
+
+		<h5>* minimo 7 caractéres *</h5>
+		<p><center><input name="n" type="text" placeholder="Nombre de usuario"></p></center>
+
+		<p><center><input name="co" type="email" placeholder="Correo electronico"></center></p>
+
+		<h5>* minimo 9 caractéres *</h5>
+		<p><center> <input  name="c" type="password" placeholder="Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/></center></p>
+
+		<p><center><input  name="cc" type="password" placeholder="Confirmar contraseña"></center></p>
+
+
+		<p><center><input name="a" type="checkbox" value="si"><a href="">Acepto terminos y condiciones</a><center></input></p>
+
+		<p><center><input name="p" type="submit" value="Registrarme"></input></center></p>
+
+	</td>
+		</form>
+	</div></center>
+
 
 <nav class="pie">
 

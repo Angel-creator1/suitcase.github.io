@@ -134,7 +134,7 @@ nav.principal{
 
 
 }
-input[type=submit] {
+input.cu[type=submit] {
 
   width: 65%;
   padding: 15px 0px;
@@ -163,4 +163,13 @@ input[type=submit] {
 	display: flex;
 	float: flex;
 	display: block;
+}
+
+.fp{
+	width: 94px;
+	height: 85px;
+}
+.fp:hover{
+	transition: 1s;
+	transform:scale(1.5);
 }

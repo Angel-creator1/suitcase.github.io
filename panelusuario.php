@@ -21,7 +21,8 @@ if ($_SESSION['usuario'] == '') {
 	<title>Inicio suitcase</title>
 	<link rel="stylesheet" type="text/css" href="panel.css">
 	<link rel="icon" type="image/jpg" href="img/logo.png">
-	<link rel="stylesheet" type="text/css" href="estilospagina.css">
+ <link rel="stylesheet" type="text/css" href="estilospagina.css">
+
 	<link rel="stylesheet" href="font/fontello.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,12 +37,12 @@ if ($_SESSION['usuario'] == '') {
 			<ul>
 				<form method="post" action="cuestionario.php">
 
-				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Ingles" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Fisica" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Ciencias sociales" name ="tipos"></INPUT>
-                <INPUT TYPE="submit" VALUE="Quimica" name ="tipos"></INPUT>
+				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Ingles" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Fisica" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Ciencias sociales" name ="tipos" class="cu"></INPUT>
+                <INPUT TYPE="submit" VALUE="Quimica" name ="tipos" class="cu"></INPUT>
                 <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" id="simulacro"></INPUT>
 
  </form>
@@ -89,7 +90,7 @@ if ($_SESSION['usuario'] == '') {
 
 				<br>
 				<br>
-				<h3>Cuestionarios que te peden interesar:</h3>
+				<h3>Cuestionarios que te pueden interesar:</h3>
 
 
 
