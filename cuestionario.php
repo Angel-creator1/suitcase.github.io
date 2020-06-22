@@ -52,21 +52,25 @@ if ($resultado) {
 		<nav id="pantallacuestionario">
 			<br>
 			<br>
-			<h4>
 
 		<?php echo 	"<center><h2>$Competencia_pregunta</h2></center>"; ?>
 
 
-			</p>
-			<h4>
-  <img src="<?php echo $imagen; ?>">
-							</h4>
-
-			<p>	<h4> <?php echo $Contextualizacion; ?> </h4> </p>
+  <img src="<?php echo $imagen; ?>"
 
 
+							<?php list($primera,$segunda,$tercera,$cuarta,$quinta,$sexta,$septima,$octava,$novena,$decima,$once,$doce,$trece,
+							           $catorce,$quince,$dieciseis,$diecisiete,$diesiocho,$diesinueve,$vente,$ventiuno,$ventidos,$ventitres,
+												 $venticuatro,$venticinco,$ventiseis,$ventisiete,$ventiocho,$ventinueve,$treinta,$trentayuno,$trentaydos,
+												 $treintaytres,$treintaycuatro,$treintaycinco,$treintayseis,$treintaysiete) = explode("&",$Contextualizacion) ?>
 
-				<h4><?php echo $pregunta; ?></h4>
+				><h5> <?php echo $primera,$segunda,$tercera,$cuarta,$quinta,$sexta,$septima,$octava,$novena,$decima,$once,$doce,$trece,
+									 $catorce,$quince,$dieciseis,$diecisiete,$diesiocho,$diesinueve,$vente,$ventiuno,$ventidos,$ventitres,
+									 $venticuatro,$venticinco,$ventiseis,$ventisiete,$ventiocho,$ventinueve,$treinta,$trentayuno,$trentaydos,
+									 $treintaytres,$treintaycuatro,$treintaycinco,$treintayseis,$treintaysiete;?> </h5>
+
+
+				<h5><?php echo $pregunta; ?></h5>
 
 
                 <nav id="options">
@@ -90,8 +94,9 @@ if ($resultado) {
  											shuffle($aux);
  											?>
                         <form class="" action="calificacion.php" method="post">
+
  												<?php
- 											echo implode('<br>', array_chunk($aux, 4)[0]);
+ 											echo implode('<BR>', array_chunk($aux, 4)[0]);
  											?>
 
 

@@ -10,7 +10,7 @@
 
 $ruta = 'img/IMGCUESTIONARIOS/';
 $archivo = $ruta.$_FILES['imagen']['name'];
-move_uploaded_file($_FILES['imagen']['tmp_name'],$archivo); 
+move_uploaded_file($_FILES['imagen']['tmp_name'],$archivo);
 
 
  include("conexionbd.php");
@@ -26,5 +26,8 @@ move_uploaded_file($_FILES['imagen']['tmp_name'],$archivo);
 
 
  <script type="text/javascript">
+
+ alert('datos almacenados');
+ window.location.href="paneladministrador.php";
 
  </script>
