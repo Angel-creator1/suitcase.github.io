@@ -16,11 +16,11 @@ if ($filas>0) {
    header("location:panelusuario.php");
 }
     else {
-    	
+
     	echo "Usuario o contraseña incorrectos";
-    	
+
     }
-    
+
 mysqli_free_result($resultado);
 mysqli_close($conexion);
 

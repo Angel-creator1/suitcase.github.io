@@ -60,13 +60,7 @@ img.logo {
 	width: 6%;
 	height:8%;
 }
-img#user {
-	position: absolute;
-	top: -54px;
-	width: 110px;
-	height:93px;
-	left: calc(40% - 59px);
-}
+
 
 img.not{
  width: 28px;
@@ -134,19 +128,6 @@ nav.principal{
 
 
 }
-input.cu[type=submit] {
-
-  width: 65%;
-  padding: 15px 0px;
-  margin: 3px 0;
-  box-sizing: border-box;
-  border: none;
-	background-color: white;
-	font-size: 'Pacifico';
-	font-weight: bold;
-	color: #124670;
-
-}
 
 .r {
   width: 14%;
@@ -166,10 +147,32 @@ input.cu[type=submit] {
 }
 
 .fp{
-	width: 94px;
-	height: 85px;
+	width: 134px;
+	height: 95px;
 }
 .fp:hover{
 	transition: 1s;
 	transform:scale(1.5);
+}
+img.fp2{
+	position: absolute;
+	top: -54px;
+	width: 110px;
+	height:93px;
+	left: calc(40% - 59px);
+}
+img.fp2 :hover{
+	transition: 1s;
+	transform:scale(1.5);
+}
+
+a.buscad{
+ position: absolute;
+ left: calc(4% - 310px);
+
+}
+#imgb{
+	position: absolute;
+  left: calc(4% - 346px);
+
 }

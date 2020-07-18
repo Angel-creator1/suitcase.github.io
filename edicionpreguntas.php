@@ -129,18 +129,28 @@
        </select>
 <br>
 <h2>Contextualización</h2>
-<center><textarea name="contextualizacion" rows="4" cols="20" placeholder="contextualizacion" class="context"></textarea></center>
 <h2>Imagen</h2>
 <center><input type="file" name="imagen"></input></center>
+<center><textarea name="contextualizacion" rows="4" cols="20" placeholder="contextualizacion" class="context"></textarea></center>
 <h2>Pregunta</h2>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen2"></input></center>
 <center><textarea name="pregunta" rows="4" cols="20" placeholder="pregunta" class="pregunta"></textarea></center>
 <h3>opcion1</h3>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen3"></input></center>
 <center><textarea name="opcion1" rows="4" cols="20" placeholder="opcion 1" class="opciones"></textarea></center>
 <h3>opcion2</h3>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen4"></input></center>
 <center><textarea name="opcion2" rows="4" cols="20" placeholder="opcion 2" class="opciones"></textarea></center>
 <h3>opcion3</h3>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen5"></input></center>
 <center><textarea name="opcion3" rows="4" cols="20" placeholder="opcion 3" class="opciones"></textarea></center>
 <h3>opcion4</h3>
+<h2>Imagen</h2>
+<center><input type="file" name="imagen6"></input></center>
 <center><textarea name="opcion4" rows="4" cols="20" placeholder="opcion 4" class="opciones"></textarea></center>
 <br>
 
