@@ -2,7 +2,8 @@
 
 session_start();
  $usuario = $_SESSION['usuario'] ;
-echo $_SESSION['usuario'];
+
+error_reporting( 'WARNING');
 
 $ruta = "usuarios/$usuario/fotodeperfil/";
 $foto = $ruta.$_FILES['subirfoto']['name'];
@@ -10,11 +11,11 @@ move_uploaded_file($_FILES['subirfoto']['tmp_name'],$foto);
 
 $crear = mkdir($ruta, 0777, true);
 
-if ($crear) {
+if ($crear == false) {
   mkdir($ruta, 0777, true);
 }
 else {
-
+mkdir($ruta, 0777, true);
 }
 
 

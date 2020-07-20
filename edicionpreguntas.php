@@ -58,7 +58,7 @@
 <center><option name="Componente"   value="Ciencias Sociales">Ciencias Sociales</option></center>
 <center><option name="Componente"   value="Ciencias Sociales2">Ciencias Sociales2</option></center>
 <center><option name="Componente"   value="Ciencias Sociales3">Ciencias Sociales3</option></center>
-<center><option name="Componente"   value="Ciencias Sociales4">Ciencias Sociales4/option></center>
+<center><option name="Componente"   value="Ciencias Sociales4">Ciencias Sociales4</option></center>
 <center><option name="Componente"   value="Ciencias Sociales5">Ciencias Sociales5</option></center>
 <center><option name="Componente"   value="Ciencias Sociales6">Ciencias Sociales6</option></center>
 <center><option name="Componente"   value="Quimica">Quimica</option></center>

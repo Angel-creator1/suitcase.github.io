@@ -70,7 +70,7 @@ img.not{
 
 div.left2 {
 	width: 240px;
-	height: 664px;
+	height: 474px;
 	position: absolute;
 	left: calc(2% - 28px);
 	top: 150px;
@@ -81,15 +81,53 @@ div.left2 {
 nav.principal{
   position: absolute;
 	top: 73px;
-	width: 83%;
+	width: 80%;
 	height: 530px;
   background-color: white;
-	left: calc(30% - 196px);
+	left: calc(30% - 160px);
+
 
 
 }
 
 
+nav.principal2{
+  position: absolute;
+	top: 73px;
+	width: 80%;
+  background-color: white;
+	left: calc(30% - 160px);
+	height: 630px;
+
+
+}
+
+div.miscuestionarios{
+
+position: absolute;
+top: 13px;
+left: calc(1%);
+width: 48%;
+background-color:rgba(96, 134, 164, 0.31) ;
+height: 900px;
+padding: 8px;
+margin: 6px 5px;
+
+
+}
+div.misvideos{
+	position: absolute;
+	top: 13px;
+	left: calc(51%);
+	width: 48%;
+	background-color: rgba(233, 154, 166, 0.41);
+	height: 900px;
+	padding: 8px;
+	margin: 6px 5px;
+
+
+
+}
 @media (max-width: 1238px){
 
 

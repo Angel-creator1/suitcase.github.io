@@ -2,7 +2,7 @@
 <?php
 
  include 'sesiones.php';
-$competencia = $_POST['tipos'];
+ include 'cues.php';
 
 
 
@@ -38,7 +38,7 @@ $imagen2 = $fila['imagen2'];
 		<?php
     if(strlen($Competencia_pregunta) == 17 ) {
 
-			echo 	"<center><h2>$Competencia_pregunta</h2></center>";
+			echo 	"<center><h2>$competencia</h2></center>";
 			 if (strlen($imagen) < 26){
 			        echo "<h3>&nbsp</h3>";
 			}
@@ -113,7 +113,7 @@ $imagen2 = $fila['imagen2'];
 
 		elseif(strlen($Competencia_pregunta) == 18 ){
 
-			echo 	"<center><h2>$Competencia_pregunta</h2></center>";
+			echo 	"<center><h2>Quimica</h2></center>";
 			if (strlen($imagen) < 26){
 						 echo "<h3>&nbsp</h3>";
 		 }

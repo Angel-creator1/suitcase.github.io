@@ -23,10 +23,9 @@ while ($fila = $resultado->fetch_array()) {
 
 $imgper = $fila['Foto_de_perfil'];
 
-
-
 }
 }
+
 
 ?>
 
@@ -37,7 +36,7 @@ $imgper = $fila['Foto_de_perfil'];
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Mi cuenta suitcase</title>
+	<title>Suitcase</title>
 	<link rel="stylesheet" type="text/css" href="panel.css">
 	<link rel="icon" type="image/jpg" href="img/logo.png">
 	<link rel="stylesheet" type="text/css" href="estilospagina.css">
@@ -50,11 +49,17 @@ $imgper = $fila['Foto_de_perfil'];
 
     <div class="left2">
 			<h4 id="b"><?php 	echo $usuario; ?> </h4>
-		 <center><a href="micuenta.php"><img src="<?php echo $imgper; ?>" class="fp2"></a></center>
+		 <center><a href="micuenta.php"><img src="<?php
+		 if (strlen($imgper) < 5  ) {
+		 	echo "img/user2.png";
+		 }
+		 else{
+			 echo $imgper;
+		 } ?>" class="fp2"></a></center>
 
 	 <nav class="men">
 			<ul>
-				<form method="post" action="cuestionario.php">
+				<form method="post" action="antescuestionario.php">
 
 				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos" class="i"></INPUT>
                 <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos" class="i"></INPUT>
