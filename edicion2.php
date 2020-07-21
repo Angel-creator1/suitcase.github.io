@@ -3,11 +3,11 @@
 
 
  insertado($_POST['Componente'],$_POST['Componentepregunta'],$_POST['contextualizacion'],$_POST['pregunta'],$_POST['opcion1'],$_POST['opcion2'],$_POST['opcion3'],$_POST['opcion4'],
- $_FILES['imagen'],$_FILES['imagen2'],$_FILES['imagen3'],$_FILES['imagen4'],$_FILES['imagen5'],$_FILES['imagen6']);
+ $_FILES['imagen'],$_FILES['imagen2'],$_POST['imagen3']);
 
 
 
-  function insertado($Componente,$Componentepregunta,$Contenido,$Pregunta,$opcion1,$opcion2,$opcion3,$opcion4,$archivo,$archivo2,$archivo3,$archivo4,$archivo5,$archivo6){
+  function insertado($Componente,$Componentepregunta,$Contenido,$Pregunta,$opcion1,$opcion2,$opcion3,$opcion4,$archivo,$archivo2,$archivo3){
 
 $ruta = 'img/IMGCUESTIONARIOS/';
 $archivo = $ruta.$_FILES['imagen']['name'];
@@ -17,45 +17,61 @@ $ruta2 = 'img/IMGCUESTIONARIOS/imgpreguntas/';
 $archivo2 = $ruta2.$_FILES['imagen2']['name'];
 move_uploaded_file($_FILES['imagen2']['tmp_name'],$archivo2);
 
-$ruta3 = 'img/IMGCUESTIONARIOS/imgopcion1/';
-$archivo3 = $ruta3.$_FILES['imagen3']['name'];
-move_uploaded_file($_FILES['imagen3']['tmp_name'],$archivo3);
 
-$ruta4 = 'img/IMGCUESTIONARIOS/imgopcion2/';
-$archivo4 = $ruta4.$_FILES['imagen4']['name'];
-move_uploaded_file($_FILES['imagen4']['tmp_name'],$archivo4);
+$primary2 = $Componente. $Componentepregunta;
 
-$ruta5 = 'img/IMGCUESTIONARIOS/imgopcion3/';
-$archivo5 = $ruta5.$_FILES['imagen5']['name'];
-move_uploaded_file($_FILES['imagen5']['tmp_name'],$archivo5);
-
-$ruta6 = 'img/IMGCUESTIONARIOS/imgopcion4/';
-$archivo6 = $ruta6.$_FILES['imagen6']['name'];
-move_uploaded_file($_FILES['imagen6']['tmp_name'],$archivo6);
+$conexion1 = mysqli_connect("localhost","root","","suitcase");
+$consulta1="SELECT * FROM cuestionarios WHERE Competencia_pregunta='$primary2' and Componente='$Componente'";
+$resultado5=mysqli_query($conexion1, $consulta1);
 
 
+$filas=mysqli_num_rows($resultado5);
+if ($filas>0) {
+  include("conexionbd.php");
+ $con = New Conexion();
+
+
+  $sentencia4="UPDATE cuestionarios SET
+  Contextualizacion = '$Contenido',
+  pregunta = '$Pregunta',
+  opcion1 = '$opcion1',
+  opcion2 = '$opcion2',
+  opcion3 = '$opcion3',
+  opcion4 = '$opcion4',
+  Imagen = '$archivo',
+  imagen2 = '$archivo2',
+  link_video = '$archivo3'
+  WHERE Competencia_pregunta = '$primary2'";
+ $resultado9 = mysqli_query($conexion1,$sentencia4);
+
+
+ if ($resultado9) {
+
+      echo ' <script>
+               alert("CAMBIOS guardados");
+               window.location.href="subirformu.php";
+            </script>';
+ }
+            else {
+              echo "error de datos, por favor cambiar caracteres desconocidos";
+            }
+
+ }
 
 
 
-
+else {
 
 
  include("conexionbd.php");
   $con = New Conexion();
- $sentencia="insert into cuestionarios values('".$Componente."','".$Componente. $Componentepregunta."','".$Contenido."',
+
+ $sentencia="insert into cuestionarios values('".$Componente."','".$primary2."','".$Contenido."',
  '".$Pregunta."','".$opcion1."','".$opcion2."','".$opcion3."','".$opcion4."','".$archivo."',
- '".$archivo2."','".$archivo3."','".$archivo4."','".$archivo5."','".$archivo6."')";
- $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
+ '".$archivo2."','".$archivo3."')";
+ $resultado2=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
 
 
  }
-
+}
  ?>
-
-
- <script type="text/javascript">
-
- alert('datos almacenados');
- window.location.href="paneladministrador.php";
-
- </script>

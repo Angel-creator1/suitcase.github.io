@@ -7,21 +7,27 @@
 
 
     		<br>
-<button class="video"><a href="subirvideo" class="s">Subir video<a></button>
+<button class="video"><a href="subirvideo.php" class="s">Subir video<a></button>
   <br>
+  <?php
+
+
+  $consulta3="SELECT * FROM videos_usuarios WHERE Nombre_usuario='$usuario'";
+    $resultado3=mysqli_query($conexion, $consulta3);
+
+
+
+    if ($resultado3) {
+    while ($fila3 = $resultado3->fetch_array()) {
+    $video = $fila3['link']; ?>
 
   <h2>&nbsp&nbsp&nbspMis Videos</h2>
-    		&nbsp&nbsp&nbsp<iframe width="230" height="138" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
-    		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		&nbsp&nbsp&nbsp <?php echo $video; ?>
+        <?php
 
-    		<iframe width="230" height="138" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
-    		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    		<iframe width="230" height="138" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
-    		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <iframe width="230" height="138" src="https://www.youtube.com/embed/7DsQ0SKx7ik" frameborder="0"
-    		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        }
+        }
+         ?>
 
       </div>
 
@@ -41,6 +47,7 @@
            					while ($fila2 = $resultado2->fetch_array()) {
            					$idcues = $fila2['id_cuestionario'];
            					$nom_cues = $fila2['nombre_cuestionario'];
+
 
             ?>
                <h2>&nbsp&nbsp&nbsp&nbspMis Cuestionarios:</h2>
@@ -62,7 +69,6 @@
              <?php
                               }
                             }
-
                                 ?>
   </div>
 

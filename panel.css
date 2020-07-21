@@ -109,7 +109,7 @@ top: 13px;
 left: calc(1%);
 width: 48%;
 background-color:rgba(96, 134, 164, 0.31) ;
-height: 900px;
+
 padding: 8px;
 margin: 6px 5px;
 
@@ -121,7 +121,6 @@ div.misvideos{
 	left: calc(51%);
 	width: 48%;
 	background-color: rgba(233, 154, 166, 0.41);
-	height: 900px;
 	padding: 8px;
 	margin: 6px 5px;
 

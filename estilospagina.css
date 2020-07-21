@@ -119,16 +119,16 @@ header.contenedor {
 
 div.a {
   width: 500px;
-	height: 128px;
+	height: 138px;
   padding: 10px;
   border: 2px;
-  margin: 0;
+  margin: 3px 4px;
   background-color: white;
 
 
       }
 			div.al {
-			  width: 494px;
+			  width: 514px;
 			  padding: 10px;
 			  border: 2px;
 			  margin: 0;
@@ -268,7 +268,7 @@ button.r:hover {
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 }
-.botones:hoover{
+.botones:hover{
 	cursor: pointer;
 	transform: rgb(17, 219, 246);
 }
@@ -349,8 +349,8 @@ nav.cal{
 
 
 button.video{
-  width: 150px;
-	height: 108px;
+  width: 200px;
+	height: 128px;
 
 
 }

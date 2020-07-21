@@ -42,6 +42,7 @@ $imgper = $fila['Foto_de_perfil'];
 	<link rel="stylesheet" type="text/css" href="estilospagina.css">
 	<link rel="stylesheet" href="font/fontello.css">
 	<link rel="stylesheet" type="text/css" href="cuestionario.css">
+	<link rel="stylesheet" type="text/css" href="panel.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -81,6 +82,10 @@ $imgper = $fila['Foto_de_perfil'];
 				<input type="checkbox" id="menu-bar">
 				<label class="icon-menu"for="menu-bar"></label>
 				<nav class="menu">
+					<img src="img/buscador.png" style="height:28px;width:32px;">
+					<form class="" action="buscar.php" method="post" style="width:400px;">
+						<input type="text" name="buscar" placeholder="Buscar id cuestionario o nombre de usuario"></input>
+					</form>
 					<a href="panelusuario.php">INICIO</a>
 					<a href="micuenta.php">MI CUENTA</a>
 					<a href="crearformulario.php">CREAR</a>
