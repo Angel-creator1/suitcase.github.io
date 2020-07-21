@@ -56,7 +56,7 @@
 					?>
 
 
-		<div class="a">
+		<div class="a2">
 			<br>
 			<h2>Componente:&nbsp<?php echo $Componente2;  ?> &nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje2;  ?></h2>
 
@@ -77,22 +77,25 @@
   <?php
         session_start();
         $conexion = mysqli_connect("localhost","root","","suitcase");
-        $consulta2="SELECT * FROM puntajes WHERE Nombre_usuario='$usuario'";
+        $consulta2="SELECT * FROM puntajes_usuarios WHERE Nombre_usuario='$usuario'";
         $resultado2=mysqli_query($conexion, $consulta2);
 
 
 
         if ($resultado2) {
         while ($fila2 = $resultado2->fetch_array()) {
-        $Componente2 = $fila2['Componente'];
-        $puntaje2 = $fila2['puntaje'];
+        $Componente3 = $fila2['id_cuestionario'];
+        $puntaje3 = $fila2['puntaje'];
+        $creador = $fila2['Nombre_creador'];
 
         ?>
 
 
-  <div class="a">
+  <div class="a2">
     <br>
-    <h2>Componente:&nbsp<?php echo $Componente2;  ?> &nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje2;  ?></h2>
+    <h4>Id cuestionario:&nbsp<?php echo $Componente3;  ?></h4>
+    <h2>&nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje3;  ?></h2>
+    <h2>&nbsp&nbsp&nbsp&nbsp&nbspCreador:&nbsp<?php  echo $creador; ?></h2>
 
   </div>
 <br>

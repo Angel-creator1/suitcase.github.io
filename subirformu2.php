@@ -8,12 +8,12 @@ error_reporting( 'WARNING');
 
 
  insertado($usuario,$_POST['id'],$_POST['nombrecues'],$_POST['numpregunta'],$_POST['contextualizacion2'],$_POST['pregunta2'],$_POST['opcion1'],
- $_POST['opcion2'],$_POST['opcion3'],$_POST['opcion4'],$_FILES['imagenc'],$_FILES['imagenp'],$_POST['video']);
+ $_POST['opcion2'],$_POST['opcion3'],$_POST['opcion4'],$_FILES['imagenc'],$_FILES['imagenp'],$_POST['video'],$_POST['numpreguntas'],$_POST['pass']);
 
 
 
 
-  function insertado($usuario,$id,$Componente,$numpregunta,$Contenido,$Pregunta,$opcion1,$opcion2,$opcion3,$opcion4,$archivo,$archivo2,$video){
+  function insertado($usuario,$id,$Componente,$numpregunta,$Contenido,$Pregunta,$opcion1,$opcion2,$opcion3,$opcion4,$archivo,$archivo2,$video,$numquestions,$password){
 
 $ruta = "usuarios/$usuario/Cuestionarios/";
 $archivo = $ruta.$_FILES['imagenc']['name'];
@@ -65,7 +65,8 @@ if ($filas>0) {
   opcion4 = '$opcion4',
   imagen = '$archivo',
   imagen2 = '$archivo2',
-  link_video = '$video'
+  link_video = '$video',
+  numero_preguntas = '$numquestions'
   WHERE organizacion = '$primary'";
  $resultado9 = mysqli_query($conexion,$sentencia3);
 
@@ -94,7 +95,7 @@ else{
  include("conexionbd.php");
 $con = New Conexion();
  $sentencia="insert into cuestionarios_usuarios values('".$primary."','".$usuario."','".$idd."','".$Componente."','".$numpregunta."','".$Contenido."',
- '".$Pregunta."','".$opcion1."','".$opcion2."','".$opcion3."','".$opcion4."','".$archivo."','".$archivo2."','".$video."')";
+ '".$Pregunta."','".$opcion1."','".$opcion2."','".$opcion3."','".$opcion4."','".$archivo."','".$archivo2."','".$video."','".$numquestions."','".$password."')";
  $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
 
 

@@ -143,8 +143,8 @@ include 'sesiones.php';
     <?php
     echo "<h3>Puntaje obtenido</h3>";
     echo "<br>";
-    echo "<h2>Te ha faltado responder algunas preguntas
-          <p>Te recomendamos ver las siguientes asesorias";
+    echo "<h2>Te ha faltado responder algunas preguntas</h2
+          <h4>Te recomendamos ver las siguientes asesorias</h4>";
 
 
 
@@ -167,6 +167,8 @@ include 'sesiones.php';
 
   <br>
 
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
   <iframe width="235" height="133" src="https://www.youtube.com/embed/Q1IjahY52o4" frameborder="0" allow="accelerometer;
   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -176,10 +178,9 @@ include 'sesiones.php';
   <iframe width="235" height="133" src="https://www.youtube.com/embed/_8ZDK_E5p84" frameborder="0" allow="accelerometer;
    autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<img src="img/cocacola.png" style="width:523px;height:155px;">
-  <button class="i">
-    <a  class="i" href="panelusuario.php">Volver al inicio</a>
-  </button>
+<img src="img/cocacola.png" style="width:523px;height:170px;">
+
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
 
 
 </nav></center>

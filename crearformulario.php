@@ -52,7 +52,7 @@
             ?>
                <h2>&nbsp&nbsp&nbsp&nbspMis Cuestionarios:</h2>
 <br>
-           		<div class="a">
+           		<div class="a2">
            			<br>
            			<h4>Id cuestionario:</h4>
                 <h4><?php echo $idcues;  ?></h4>
@@ -60,7 +60,11 @@
                 <h4>Nombre cuestionario:&nbsp<?php echo $nom_cues; ?></h4>
 
 <form class="" action="micuestio.php" method="post">
-  <input type="submit" name="mi" value="<?php echo $idcues;  ?>"></input>
+  <h3 style="color:rgb(3, 126, 19);">Ver mi cuestionario:</h3><input type="submit" name="mi" value="<?php echo $idcues;  ?>"></input>
+
+</form>
+<form class="" action="quienes.php" method="post">
+  <h3 style="color:rgb(106, 15, 94);">Quienes han llenado mi cuestionario:</h3><input type="submit" name="mi" value="<?php echo $idcues;  ?>"></input>
 
 </form>
 

@@ -2,6 +2,7 @@
 
  include 'sesiones.php';
  include 'cues.php';
+
  $id = $_POST['mi'];
 
 $conexion = mysqli_connect("localhost","root","","suitcase");
@@ -27,7 +28,11 @@ $imagen2 = $fila['imagen2'];
 ?>
 <br>
 <br>
+<h1>  <?php
 
+    echo 	"<center><h2>$nomcues</h2></center>";
+    ?>
+  </h1>
     <center>
 		<nav id="pantallacuestionario">
       <?php
@@ -36,7 +41,7 @@ $imagen2 = $fila['imagen2'];
         ?>
 <?PHP
 
-			 if (strlen($imagen) < 36){
+			 if (strlen($imagen) < 34){
 			        echo "<h3>&nbsp</h3>";
 			}
 							else {
@@ -62,7 +67,7 @@ $imagen2 = $fila['imagen2'];
 
 				<?php
 
-               if (strlen($imagen2) < 36){
+               if (strlen($imagen2) < 34){
                 echo "<h3>&nbsp</h3>";
         }
                 else {
@@ -90,7 +95,7 @@ $imagen2 = $fila['imagen2'];
 			 											$aux = array_unique($preguntas);
 			 											shuffle($aux);
 			 											?>
-			                        <form class="" action="calificacion.php" method="post">
+			                        <form class="" action="calificacion_usuarios.php" method="post">
 
 			 												<?php
 			 											echo implode('<BR>', array_chunk($aux, 4)[0]);
@@ -111,7 +116,7 @@ $imagen2 = $fila['imagen2'];
 
  ?>
 
- <center> <input type="checkbox" name="Envia" value="<?php echo $nomcues;?>"></input>Listo</center>
+ <center> <input type="checkbox" name="Envia" value="<?php echo $id;?>"></input>Listo</center>
  <center><input type="submit" name="Enviar" value="Enviar" class="b"></input></center>
 
  </form>

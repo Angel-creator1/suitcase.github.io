@@ -48,6 +48,20 @@ font-size: 300%;
 /*fin de haches*/
 /*imgs */
 
+img.am{
+	width: 234px;
+	height: 160px;
+	position: absolute;
+	top: 7px;
+	left: calc(69%);
+}
+img.rap{
+	width: 234px;
+	height: 160px;
+	position: absolute;
+	top: 7px;
+	left: calc(6%);
+}
 	 img.hoja1 {
 			 	width: 28%;
 			 	height: 13%;
@@ -118,8 +132,8 @@ header.contenedor {
  }
 
 div.a {
-  width: 500px;
-	height: 138px;
+  width: 680px;
+	height: 173px;
   padding: 10px;
   border: 2px;
   margin: 3px 4px;
@@ -127,12 +141,22 @@ div.a {
 
 
       }
+			div.a2 {
+			  width: 496px;
+				height: 210px;
+			  padding: 10px;
+			  border: 2px;
+			  margin: 3px 4px;
+			  background-color: white;
+
+
+			      }
 			div.al {
 			  width: 514px;
 			  padding: 10px;
 			  border: 2px;
 			  margin: 0;
-			  background-color: rgba(11, 152, 190, 0.65);
+			  background-color: rgba(159, 216, 218, 0.88);
 
 
 			      }
@@ -141,7 +165,7 @@ div.a {
 							padding: 10px;
 							border: 2px;
 							margin: 0;
-							background-color: rgba(203, 49, 179, 0.49);
+							background-color: rgba(226, 225, 168, 0.81);
 							position: absolute;
 							left: calc(60%);
 							top:357px;
@@ -297,6 +321,17 @@ nav.pie {
 
 
 }
+nav.tuto {
+
+position: absolute;
+width: 391px;
+height: 184px;
+background-color: rgba(91, 228, 198, 0.41);
+top: 60px;
+left: calc(69%);
+border: 2px solid blue;
+
+}
 
 .lpie {
 
@@ -349,8 +384,8 @@ nav.cal{
 
 
 button.video{
-  width: 200px;
-	height: 128px;
+  width: 160px;
+	height: 98px;
 
 
 }
@@ -383,7 +418,7 @@ border-bottom: 2px solid blue;
 }
 .context{
 
-width: 197%;
+width: 147%;
 height: 380px;
 padding: 3px 0px;
 margin: 2px 1px;
@@ -392,7 +427,7 @@ border: 2px solid blue;
 }
 .pregunta{
 
-	width: 179%;
+	width: 129%;
 	height: 194px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -402,7 +437,7 @@ border: 2px solid blue;
 }
 .opciones{
 
-	width: 177%;
+	width: 107%;
 	height: 120px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -471,7 +506,29 @@ input.sf:hover[type=submit] {
 
 
 }
+.i2{
 
+	padding: 16px 0px;
+	margin: 4px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: rgba(174, 221, 227, 0.83);
+	font-size: 'Pacifico';
+	font-weight: bold;
+	color: #124670;
+	decoration: none;
+	top: 670px;
+	font-size: 17px;
+	border-radius: 20px;
+
+
+}
+
+.i2:hover{
+ background-color: rgba(172, 205, 222, 0.91);
+
+
+}
 .i:hover{
 background-color: rgba(170, 239, 244, 0.74);
 

@@ -15,20 +15,166 @@ include 'sesiones.php';
 
 
 
- 	<h1 color="red"><center> Crear cuestionario</center></h1>
+ 	<h1 color="red"><center> Crear o editar cuestionario</center></h1>
  	<form method="POST" action="subirformu2.php" enctype="multipart/form-data">
 
-  <h2>Crear o digitar id de cuestionario a cambiar</h2>
+  <h2>Crear o digitar id de cuestionario a actualizar</h2>
    <input type="text" name="id"></input><h3 style="color:rgba(255, 1, 1, 0.82)">*Importante*</h3>
-
+   <br>
+   <h2>Crear CONTRASEÑA de cuestionario</h2><h3 style="color:rgba(255, 1, 1, 0.82)">*Opcional*</h3>
+   <h4>"Si no creas contraseña para tu cuestionario cualquier persona podra realizarlo"</h4>
+    <input type="text" name="pass"></input>
 <BR>
+<br>
 <br>
  		<h2>Nombre del cuestionario</h2>
  		<input type="text" name="nombrecues"></input>
 
+<nav class="tuto">
+
+<h4 style="color:rgb(61, 4, 251);">Aquí podras crear tu propio cuestionario, con tus propias preguntas.
+  Para ver el resultado puedes ir a la pestaña CREAR y ver tus cuestionarios creados
+  ,si quieres editar o actualizar tu cuestionario lo puedes hacer aqui mismo llenando el id de cuestionario,
+  el nombre de cuestionario y el numero de pregunta
+ NOTA:Si vas a actualizar cuestionarios tendras que diligenciar TODOS los datos del cuestionario que quieres cambiar</h4>
 
 
- <h2>Número de pregunta</h2>
+
+</nav>
+<h2>Cantidad de preguntas del cuestionario</h2>
+<h5><p>Aquí colocaras el numero de preguntas sobre el cual sera
+  calificado tu cuestionario</p></h5>
+<select name="numpreguntas">
+   <center><option name="numpreguntas"   value="nada">...</option></center>
+<center><option name="numpreguntas"   value="1"> 1</option></center>
+<center><option name="numpreguntas"   value="2"> 2</option></center>
+<center><option name="numpreguntas"   value="3"> 3</option></center>
+<center><option name="numpreguntas"   value="4"> 4</option></center>
+<center><option name="numpreguntas"   value="5"> 5</option></center>
+<center><option name="numpreguntas"   value="6"> 6</option></center>
+<center><option name="numpreguntas"   value="7"> 7</option></center>
+<center><option name="numpreguntas"   value="8"> 8</option></center>
+<center><option name="numpreguntas"   value="1"> 9</option></center>
+<center><option name="numpreguntas"   value="10"> 10</option></center>
+<center><option name="numpreguntas"   value="11"> 11</option></center>
+<center><option name="numpreguntas"   value="12"> 12</option></center>
+<center><option name="numpreguntas"   value="13"> 13</option></center>
+<center><option name="numpreguntas"   value="14"> 14</option></center>
+<center><option name="numpreguntas"   value="15"> 15</option></center>
+<center><option name="numpreguntas"   value="16"> 16</option></center>
+<center><option name="numpreguntas"   value="17"> 17</option></center>
+<center><option name="numpreguntas"   value="18"> 18</option></center>
+<center><option name="numpreguntas"   value="19"> 19</option></center>
+<center><option name="numpreguntas"   value="20"> 20</option></center>
+<center><option name="numpreguntas"   value="21"> 21</option></center>
+<center><option name="numpreguntas"   value="22"> 22</option></center>
+<center><option name="numpreguntas"   value="23"> 23</option></center>
+<center><option name="numpreguntas"   value="24"> 24</option></center>
+<center><option name="numpreguntas"   value="25"> 25</option></center>
+<center><option name="numpreguntas"   value="26"> 26</option></center>
+<center><option name="numpreguntas"   value="27"> 27</option></center>
+<center><option name="numpreguntas"   value="28"> 28</option></center>
+<center><option name="numpreguntas"   value="29"> 29</option></center>
+<center><option name="numpreguntas"   value="30"> 30</option></center>
+<center><option name="numpreguntas"   value="31"> 31</option></center>
+<center><option name="numpreguntas"   value="32"> 32</option></center>
+<center><option name="numpreguntas"   value="33"> 33</option></center>
+<center><option name="numpreguntas"   value="34"> 34</option></center>
+<center><option name="numpreguntas"   value="35"> 35</option></center>
+<center><option name="numpreguntas"   value="36"> 36</option></center>
+<center><option name="numpreguntas"   value="37"> 37</option></center>
+<center><option name="numpreguntas"   value="38"> 38</option></center>
+<center><option name="numpreguntas"   value="39"> 39</option></center>
+<center><option name="numpreguntas"   value="40"> 40</option></center>
+<center><option name="numpreguntas"   value="41"> 41</option></center>
+<center><option name="numpreguntas"   value="42"> 42</option></center>
+<center><option name="numpreguntas"   value="43"> 43</option></center>
+<center><option name="numpreguntas"   value="44"> 44</option></center>
+<center><option name="numpreguntas"   value="45"> 45</option></center>
+<center><option name="numpreguntas"   value="46"> 46</option></center>
+<center><option name="numpreguntas"   value="47"> 47</option></center>
+<center><option name="numpreguntas"   value="48"> 48</option></center>
+<center><option name="numpreguntas"   value="49"> 49</option></center>
+<center><option name="numpreguntas"   value="50"> 50</option></center>
+<center><option name="numpreguntas"   value="51"> 51</option></center>
+<center><option name="numpreguntas"   value="52"> 52</option></center>
+<center><option name="numpreguntas"   value="53"> 53</option></center>
+<center><option name="numpreguntas"   value="54"> 54</option></center>
+<center><option name="numpreguntas"   value="55"> 55</option></center>
+<center><option name="numpreguntas"   value="56"> 56</option></center>
+<center><option name="numpreguntas"   value="57"> 57</option></center>
+<center><option name="numpreguntas"   value="58"> 58</option></center>
+<center><option name="numpreguntas"   value="59"> 59</option></center>
+<center><option name="numpreguntas"   value="60"> 60</option></center>
+<center><option name="numpreguntas"   value="61"> 61</option></center>
+<center><option name="numpreguntas"   value="62"> 62</option></center>
+<center><option name="numpreguntas"   value="63"> 63</option></center>
+<center><option name="numpreguntas"   value="64"> 64</option></center>
+<center><option name="numpreguntas"   value="65"> 65</option></center>
+<center><option name="numpreguntas"   value="66"> 66</option></center>
+<center><option name="numpreguntas"   value="67"> 67</option></center>
+<center><option name="numpreguntas"   value="68"> 68</option></center>
+<center><option name="numpreguntas"   value="69"> 69</option></center>
+<center><option name="numpreguntas"   value="70"> 70</option></center>
+<center><option name="numpreguntas"   value="71"> 71</option></center>
+<center><option name="numpreguntas"   value="72"> 72</option></center>
+<center><option name="numpreguntas"   value="73"> 73</option></center>
+<center><option name="numpreguntas"   value="74"> 74</option></center>
+<center><option name="numpreguntas"   value="75"> 75</option></center>
+<center><option name="numpreguntas"   value="76"> 76</option></center>
+<center><option name="numpreguntas"   value="77"> 77</option></center>
+<center><option name="numpreguntas"   value="78"> 78</option></center>
+<center><option name="numpreguntas"   value="79"> 79</option></center>
+<center><option name="numpreguntas"   value="80"> 80</option></center>
+<center><option name="numpreguntas"   value="81"> 81</option></center>
+<center><option name="numpreguntas"   value="82"> 82</option></center>
+<center><option name="numpreguntas"   value="83"> 83</option></center>
+<center><option name="numpreguntas"   value="84"> 84</option></center>
+<center><option name="numpreguntas"   value="85"> 85</option></center>
+<center><option name="numpreguntas"   value="86"> 86</option></center>
+<center><option name="numpreguntas"   value="87"> 87</option></center>
+<center><option name="numpreguntas"   value="88"> 88</option></center>
+<center><option name="numpreguntas"   value="89"> 89</option></center>
+<center><option name="numpreguntas"   value="90"> 90</option></center>
+<center><option name="numpreguntas"   value="91"> 91</option></center>
+<center><option name="numpreguntas"   value="92"> 92</option></center>
+<center><option name="numpreguntas"   value="93"> 93</option></center>
+<center><option name="numpreguntas"   value="94"> 94</option></center>
+<center><option name="numpreguntas"   value="95"> 95</option></center>
+<center><option name="numpreguntas"   value="96"> 96</option></center>
+<center><option name="numpreguntas"   value="97"> 97</option></center>
+<center><option name="numpreguntas"   value="98"> 98</option></center>
+<center><option name="numpreguntas"   value="99"> 99</option></center>
+<center><option name="numpreguntas"   value="100"> 100</option></center>
+<center><option name="numpreguntas"   value="101"> 101</option></center>
+<center><option name="numpreguntas"   value="102"> 102</option></center>
+<center><option name="numpreguntas"   value="103"> 103</option></center>
+<center><option name="numpreguntas"   value="104"> 104</option></center>
+<center><option name="numpreguntas"   value="105"> 105</option></center>
+<center><option name="numpreguntas"   value="106"> 106</option></center>
+<center><option name="numpreguntas"   value="107"> 107</option></center>
+<center><option name="numpreguntas"   value="108"> 108</option></center>
+<center><option name="numpreguntas"   value="109"> 109</option></center>
+<center><option name="numpreguntas"   value="110"> 110</option></center>
+<center><option name="numpreguntas"   value="111"> 111</option></center>
+<center><option name="numpreguntas"   value="112"> 112</option></center>
+<center><option name="numpreguntas"   value="113"> 113</option></center>
+<center><option name="numpreguntas"   value="114"> 114</option></center>
+<center><option name="numpreguntas"   value="115"> 115</option></center>
+<center><option name="numpreguntas"   value="116"> 116</option></center>
+<center><option name="numpreguntas"   value="117"> 117</option></center>
+<center><option name="numpreguntas"   value="118"> 118</option></center>
+<center><option name="numpreguntas"   value="119"> 119</option></center>
+<center><option name="numpreguntas"   value="120"> 120</option></center>
+
+</select>
+
+<br>
+<br>
+<br>
+<br>
+ <h2 style="">Aquí empezaras a llenar las preguntas de tu cuestionario</h2>
+ <h2>Número de pregunta a digitar</h2>
 
  <select name="numpregunta">
 
@@ -172,11 +318,11 @@ include 'sesiones.php';
  <br>
  <h2>Contextualización</h2>
  <h2>Imagen</h2>
- <center><input type="file" name="imagenc"></input></center>
+ <center><input type="file" name="imagenc"></input><h3>Sube una imagen para la Contextualización</h3></center>
  <center><textarea name="contextualizacion2" rows="4" cols="20" placeholder="contextualizacion" class="context"></textarea></center>
  <h2>Pregunta</h2>
  <h2>Imagen</h2>
- <center><input type="file" name="imagenp"></input></center>
+ <center><input type="file" name="imagenp"></input><h3>Sube una imagen para la Pregunta</h3></center>
  <center><textarea name="pregunta2" rows="4" cols="20" placeholder="pregunta" class="pregunta"></textarea></center>
  <h3>opcion1</h3>
  <center><textarea name="opcion1" rows="4" cols="20" placeholder="opcion 1" class="opciones"></textarea></center>
@@ -194,7 +340,7 @@ include 'sesiones.php';
  <br>
  <br>
 
- <input type="submit" value="Guardar cambios"></input>
+ <input type="submit" value="Enviar o Actualizar" class="i2"></input>
 
 </body>
 

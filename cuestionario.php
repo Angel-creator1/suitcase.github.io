@@ -15,6 +15,7 @@ $resultado=mysqli_query($conexion, $consulta);
 
 if ($resultado) {
 while ($fila = $resultado->fetch_array()) {
+
 $Competencia_pregunta = $fila['Competencia_pregunta'];
 $Contextualizacion = $fila['Contextualizacion'];
 $pregunta = $fila['pregunta'];
@@ -197,7 +198,7 @@ $imagen2 = $fila['imagen2'];
 
  ?>
 
- <center> <input type="checkbox" name="Envia" value="<?php echo $competencia;?>"></input>Listo</center>
+ <center> <input type="checkbox" name="Envia" value="<?php echo $id;?>"></input>Listo</center>
  <center><input type="submit" name="Enviar" value="Enviar" class="b"></input></center>
 
  </form>
