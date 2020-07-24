@@ -3,7 +3,7 @@
  include 'sesiones.php';
  include 'cues.php';
 
- $id = $_POST['mi'];
+ $id = $_POST['realizar'];
 
 $conexion = mysqli_connect("localhost","root","","suitcase");
 $consulta="SELECT * FROM cuestionarios_usuarios WHERE id_cuestionario='$id'";
@@ -28,8 +28,6 @@ $imagen2 = $fila['imagen2'];
 ?>
 <br>
 <br>
-<br>
-
 <h1>  <?php
 
     echo 	"<center><h2>$nomcues</h2></center>";

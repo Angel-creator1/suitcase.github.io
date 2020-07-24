@@ -26,7 +26,7 @@
 	<td>
     <center>
 			<h3>Mi Progreso</h3>
-			<center><svg version="1.1" width="120" height="120" viewBox="0 0 120 120">
+			<center><svg version="1.1" width="205" height="100" viewBox="0 0 120 120">
     <circle cx="60" cy="60" r="37"
             fill="RoyalBlue" />
   </svg></center>
@@ -36,9 +36,14 @@
 <tr></tr>
 <center>
 	<tr>
-	<td colspan="30">
+	<td>
     <div class="al">
 		<h3>Cuestionarios completados de SUITCASE</h3>
+
+    <form class="" action="resultados.php" method="post" style="width:400px;">
+      <img src="img/buscador.png" style="height:28px;width:32px;"><input type="text" name="buscarr" placeholder="Buscar en mis cuestionarios Completados de SUITCASE"></input>
+      <input type="submit" name="buscar" value="buscar" class="sf2"></input>
+    </form>
 		<br>
 		<?php
 					session_start();
@@ -56,7 +61,7 @@
 					?>
 
 
-		<div class="a2">
+		<div class="a4">
 			<br>
 			<h2>Componente:&nbsp<?php echo $Componente2;  ?> &nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje2;  ?></h2>
 
@@ -73,6 +78,11 @@
 
   <div class="al2">
   <h3>Mas cuestionarios completados</h3>
+
+  <form class="" action="resultados.php" method="post" style="width:400px;">
+  <img src="img/buscador.png" style="height:28px;width:32px;">  <input type="text" name="buscarr" placeholder="Buscar por puntaje,id o nombre"></input>
+    <input type="submit" name="buscar" value="buscar" class="sf2"></input>
+  </form>
   <br>
   <?php
         session_start();
@@ -91,7 +101,7 @@
         ?>
 
 
-  <div class="a2">
+  <div class="a4">
     <br>
     <h4>Id cuestionario:&nbsp<?php echo $Componente3;  ?></h4>
     <h2>&nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje3;  ?></h2>

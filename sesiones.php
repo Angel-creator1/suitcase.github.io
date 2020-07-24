@@ -68,7 +68,7 @@ $imgper = $fila['Foto_de_perfil'];
                 <INPUT TYPE="submit" VALUE="Fisica" name ="tipos" class="i"></INPUT>
                 <INPUT TYPE="submit" VALUE="Ciencias sociales" name ="tipos" class="i"></INPUT>
                 <INPUT TYPE="submit" VALUE="Quimica" name ="tipos" class="i"></INPUT>
-                <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" class="b"></INPUT>
+                <INPUT TYPE="submit" VALUE="Presentar simulacro" name ="tipos" class="b1"></INPUT>
 
  </form>
 	 </nav>
@@ -83,8 +83,9 @@ $imgper = $fila['Foto_de_perfil'];
 				<label class="icon-menu"for="menu-bar"></label>
 				<nav class="menu">
 					<img src="img/buscador.png" style="height:28px;width:32px;">
-					<form class="" action="buscar.php" method="post" style="width:400px;">
-						<input type="text" name="buscar" placeholder="Buscar id cuestionario o nombre de usuario"></input>
+					<form class="" action="resultados.php" method="post" style="width:400px;">
+						<input type="text" name="buscarr" placeholder="Buscar id cuestionario o nombre de usuario"></input>
+						<input type="submit" name="buscar" value="buscar" class="sf2"></input>
 					</form>
 					<a href="panelusuario.php">INICIO</a>
 					<a href="micuenta.php">MI CUENTA</a>

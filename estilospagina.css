@@ -45,6 +45,9 @@ h1.inicio{
 font-size: 300%;
 
 }
+h4.busque{
+	color: rgb(5, 0, 255);
+}
 /*fin de haches*/
 /*imgs */
 
@@ -60,7 +63,7 @@ img.rap{
 	height: 160px;
 	position: absolute;
 	top: 7px;
-	left: calc(6%);
+	left: calc(3%);
 }
 	 img.hoja1 {
 			 	width: 28%;
@@ -143,7 +146,7 @@ div.a {
       }
 			div.a2 {
 			  width: 496px;
-				height: 210px;
+				height: 230px;
 			  padding: 10px;
 			  border: 2px;
 			  margin: 3px 4px;
@@ -151,13 +154,36 @@ div.a {
 
 
 			      }
+						div.a3 {
+							width: 526px;
+							height: 200px;
+							padding: 5px;
+							border: 2px;
+							margin: 3px 4px;
+							background-color: rgba(146, 204, 212, 0.77);
+							border-radius: 30px;
+
+
+
+									}
+
+									div.a4 {
+									  width: 496px;
+										height: 160px;
+									  padding: 10px;
+									  border: 2px;
+									  margin: 3px 4px;
+									  background-color: white;
+
+
+									      }
+
 			div.al {
 			  width: 514px;
 			  padding: 10px;
 			  border: 2px;
 			  margin: 0;
 			  background-color: rgba(159, 216, 218, 0.88);
-
 
 			      }
 						div.al2 {
@@ -198,43 +224,7 @@ display: none;
 
 
 }
- section {
- 	width: 100%;
- 	margin-bottom: 25px;
- 	height: 200%;
- }
- section.primerpagina{
- 	background-color: #b5ffff;
- 	width: 92%;
- 	height: 95%;
 
- }
-
- div.nos{
-	 background-color: #b5fff5;
-	 width: 104%;
-	 height: 80%;
-
- }
-
-}
-div.segundapagina {
-	background-color: #b2ffff;
-}
-div.sui {
-	width: 50%;
-	height: 60%;
-	position: absolute;
-	left: calc(49% - 60px);
-	top: 1600px;
-
-}
-
-
-
-td {
-	text-align: left;
-}
 div.p2 {
 	width: 80%;
 	height:80%;
@@ -247,6 +237,51 @@ div.imgs2 {
 div.contenedor {
 	height: 80%
 	width: 80%;
+}
+div.nos{
+	background-color: #b5fff5;
+	width: 104%;
+	height: 80%;
+
+}
+
+}
+div.segundapagina {
+ background-color: #b2ffff;
+}
+div.sui {
+ width: 50%;
+ height: 60%;
+ position: absolute;
+ left: calc(49% - 60px);
+ top: 1600px;
+
+}
+div.reg {
+width: 360px;
+padding: 10px;
+border: 0px solid black;
+margin: 31px;
+height: 438px;
+background-color: white;
+
+
+}
+
+ section {
+ 	width: 100%;
+ 	margin-bottom: 25px;
+ 	height: 200%;
+ }
+ section.primerpagina{
+ 	background-color: #b5ffff;
+ 	width: 92%;
+ 	height: 95%;
+
+ }
+
+td {
+	text-align: left;
 }
 
 a.r {
@@ -324,12 +359,18 @@ nav.pie {
 nav.tuto {
 
 position: absolute;
-width: 391px;
-height: 184px;
-background-color: rgba(91, 228, 198, 0.41);
-top: 60px;
-left: calc(69%);
+width: 581px;
+height: 264px;
+background-color: white;
+top: 90px;
+left: calc(35%);
+border-radius: 39px;
 border: 2px solid blue;
+display: none;
+font-size: 120%;
+padding: 27px;
+margin: 11px 11px;
+text-align: left;
 
 }
 
@@ -354,18 +395,6 @@ color:darkcyan;
 
 }
 
-
-
-div.reg {
-width: 360px;
-padding: 10px;
-border: 0px solid black;
-margin: 31px;
-height: 438px;
-background-color: white;
-
-
-}
 
 nav.cal{
 	width: 888px;
@@ -489,6 +518,61 @@ input.sf:hover[type=submit] {
 	background-color: rgba(92, 15, 235, 0.42);
 
 }
+input.sf2[type=submit] {
+
+width: 25%;
+height: 20px;
+padding: 0px 0px;
+margin: 0px 0;
+border: none;
+background-color: rgb(98, 10, 241);
+font-size: 14px;
+border-radius: 20px;
+color: rgb(22, 241, 241);
+
+
+}
+input.sf2:hover[type=submit] {
+	background-color: rgba(92, 15, 235, 0.42);
+
+}
+input.sf3[type=submit] {
+
+width: 75%;
+height: 40px;
+padding: 5px 0px;
+margin: 3px 0;
+border: none;
+background-color: rgb(98, 10, 241);
+font-size: 16px;
+border-radius: 20px;
+color: rgb(22, 241, 241);
+
+
+}
+input.sf3:hover[type=submit] {
+	background-color: rgba(92, 15, 235, 0.42);
+
+}
+input.misc[type=submit] {
+
+width: 100%;
+height: 30px;
+padding: 4px 0px;
+margin: 3px 0;
+border: none;
+background-color:rgba(41, 134, 140, 0.65);
+font-size: 13px;
+border-radius: 20px;
+color: rgb(7, 1, 9);
+
+
+}
+input.misc:hover[type=submit] {
+	background-color: rgba(189, 211, 217, 0.76);
+
+}
+
 .i{
 	width: 74%;
 	padding: 16px 0px;
@@ -533,7 +617,7 @@ input.sf:hover[type=submit] {
 background-color: rgba(170, 239, 244, 0.74);
 
 }
-input.b[type=submit] {
+input.b1[type=submit] {
 width: 210px;
 padding: 10px 0px;
 margin: 6px 0;
@@ -542,6 +626,19 @@ background-color: lightblue;
 font-size: 17px;
 border-radius: 20px;
 color: blue;
+
+
+}
+input.b[type=submit] {
+width: 110px;
+padding: 10px 0px;
+margin: 6px 0;
+border: none;
+background-color: lightblue;
+font-size: 17px;
+border-radius: 20px;
+color: blue;
+top:
 
 
 }

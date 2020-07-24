@@ -13,9 +13,10 @@ include 'sesiones.php';
  		<br>
 
 
-
-
- 	<h1 color="red"><center> Crear o editar cuestionario</center></h1>
+<center><a href="javascript:abrir()" style="color: rgb(232, 25, 5);font-size:250%; ">Ayuda</a></center>
+<br>
+<br>
+ 	<h1 color="red" class="c"><center> Crear o editar cuestionario</center></h1>
  	<form method="POST" action="subirformu2.php" enctype="multipart/form-data">
 
   <h2>Crear o digitar id de cuestionario a actualizar</h2>
@@ -30,20 +31,24 @@ include 'sesiones.php';
  		<h2>Nombre del cuestionario</h2>
  		<input type="text" name="nombrecues"></input>
 
-<nav class="tuto">
+<nav class="tuto" id="inst">
 
-<h4 style="color:rgb(61, 4, 251);">Aquí podras crear tu propio cuestionario, con tus propias preguntas.
+<h4 style="color:rgba(48, 48, 48, 0.94); text-align:left;" >AYUDA:
+  Aquí podras crear tu propio cuestionario, con tus propias preguntas.
   Para ver el resultado puedes ir a la pestaña CREAR y ver tus cuestionarios creados
   ,si quieres editar o actualizar tu cuestionario lo puedes hacer aqui mismo llenando el id de cuestionario,
-  el nombre de cuestionario y el numero de pregunta
- NOTA:Si vas a actualizar cuestionarios tendras que diligenciar TODOS los datos del cuestionario que quieres cambiar</h4>
+  el nombre de cuestionario y el numero de pregunta.Recuerda que Suitcase califica sobre 100
 
-
+ NOTA:Si vas a actualizar cuestionarios tendras que  diligenciar el id del cuestionario que quieres cambiar y despues
+  TODOS los datos a actualizar.</h4>
+ <center><a href="subirformu.php" ><h2 style="color:rgb(190, 24, 24);">Cerrar</h3></a></center>
 
 </nav>
 <h2>Cantidad de preguntas del cuestionario</h2>
 <h5><p>Aquí colocaras el numero de preguntas sobre el cual sera
   calificado tu cuestionario</p></h5>
+  <h5><p>NOTA quien diligencie el cuestionario debera responder el mismo o menor numero de preguntas aquí estipuladas
+  si no lo hace se le restaran 90 puntos </p></h5>
 <select name="numpreguntas">
    <center><option name="numpreguntas"   value="nada">...</option></center>
 <center><option name="numpreguntas"   value="1"> 1</option></center>
@@ -173,7 +178,8 @@ include 'sesiones.php';
 <br>
 <br>
 <br>
- <h2 style="">Aquí empezaras a llenar las preguntas de tu cuestionario</h2>
+ <h1 class="c">Aquí empezaras a llenar</h1>
+  <h1 class="c">  las preguntas de tu cuestionario</h1>
  <h2>Número de pregunta a digitar</h2>
 
  <select name="numpregunta">
@@ -342,6 +348,19 @@ include 'sesiones.php';
 
  <input type="submit" value="Enviar o Actualizar" class="i2"></input>
 
+
+ <script>
+
+   function abrir() {
+
+     document.getElementById("inst").style.display="block";
+
+
+ }
+
+
+
+ </script>
 </body>
 
  </html>

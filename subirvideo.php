@@ -1,7 +1,7 @@
 <?php include 'sesiones.php';?>
 
  <nav class="principal">
- <h1>Subir video</h1>
+ <h1 class="c">Subir video</h1>
  <br>
  <br>
  <h2>Ingresar link EMBEBIDO de youtube</h2>

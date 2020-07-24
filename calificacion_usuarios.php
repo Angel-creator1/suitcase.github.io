@@ -11,8 +11,10 @@ $resultado=mysqli_query($conexion, $consulta);
 $filas=mysqli_num_rows($resultado);
 if ($filas>0) {
   while ($fila = $resultado->fetch_array()) {
+
   $num_preguntas = $fila['numero_preguntas'];
   $link = $fila['link_video'];
+  $creador = $fila['Nombre_usuario'];
 
 
 
@@ -105,28 +107,41 @@ echo "<br>";
 $totalrespuestas = $num_countries1+$num_countries2+$num_countries3+$num_countries4;
 
 if ($totalrespuestas>$num_preguntas ) {
-  $nota3 = $nota-50;
+  $nota3 = $nota-90;
   echo "<h2>Cuestionario finalizado</h2>"; ?>
-  <h1 class="nota"><?php echo $nota3; ?></h1>
+  <h2 class="nota"><?php echo $nota3; ?></h2>
   <?php
   echo "<h2>Puntaje obtenido</h2>";
   echo "<br>";
   echo "<h2> has respondido doble
    en alguna pregunta ten mas cuidado</h2>
-   <p>Te recomendamos las siguientes asesorias</p>";
+   <p>El creador te recomienda el siguiente video o link</p>";
 
 
 
 }
+
+elseif ($totalrespuestas<$num_preguntas ) {
+  $nota3 = $nota;
+  echo "<h2>Cuestionario finalizado</h2>"; ?>
+  <h2 class="nota"><?php echo $nota3; ?></h2>
+  <?php
+  echo "<h2>Puntaje obtenido</h2>";
+  echo "<br>";
+  echo "<h3> te ha faltado responder algunas preguntas</h3>
+   <p>El creador te recomienda el siguiente video o link</p>";
+
+ }
 else{
 
+  $nota3 = $nota;
  echo "<h2>Cuestionario finalizado</h2>"; ?>
-  <h1 class="nota"><?php echo $nota ; ?></h1>
+  <h2 class="nota"><?php echo $nota ; ?></h2>
   <?php
   echo "<h2>Puntaje obtenido</h2>";
   echo "<br>";
   echo "<h2></h2>
-   <p>El creador te recomienda los siguientes videos</p>";
+   <p>El creador te recomienda el siguiente video o link</p>";
 
 }
 
@@ -134,7 +149,7 @@ else{
         include("conexionbd.php");
          $con = New Conexion();
 
-        $sentencia="insert into puntajes_usuarios values('".$_SESSION['usuario']."','".$id."','".$notab."','".$_SESSION['usuario']."')";
+        $sentencia="insert into puntajes_usuarios values('".$_SESSION['usuario']."','".$id."','".$nota3."','".$creador."')";
         $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
 
 
@@ -145,7 +160,10 @@ else{
 <br>
 <img src="img/publicidad/amazon.jpg" class="am">
 <img src="img/publicidad/rapi.png" class="rap">
-<a href="<?php echo $link; ?>" class="i2">Link recomendado</a>
+<?php if (strlen($link)>1) {
+              echo '<a href="$link" class="i2">Link recomendado</a>';
+            } ?>
+
 <br>
 <br>
 <br>
