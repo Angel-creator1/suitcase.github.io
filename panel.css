@@ -53,21 +53,6 @@ h4#b{
 	left: calc(50% - 83px);
 
 }
-img.logo {
-	position: absolute;
-	top: 12px;
-	left: calc(34% - 60px);
-	width: 6%;
-	height:8%;
-}
-
-
-img.not{
- width: 28px;
- height: 20px;
-
-}
-
 div.left2 {
 	width: 240px;
 	height: 474px;
@@ -127,6 +112,76 @@ div.misvideos{
 
 
 }
+img.logo {
+	position: absolute;
+	top: 12px;
+	left: calc(34% - 60px);
+	width: 6%;
+	height:8%;
+}
+
+
+img.not{
+ width: 28px;
+ height: 20px;
+
+}
+
+.r {
+  width: 14%;
+  height: 100px;
+  padding: 12px 0px;
+  margin: 6px 0;
+  box-sizing: border-box;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: lightgreen;
+}
+.contenedorprincipal .contenedor .contenedor-carrusel .video{
+	display: flex;
+	float: flex;
+	display: block;
+}
+
+.fp{
+	width: 137px;
+	height: 115px;
+	background-size: cover;
+	background-position: center;
+}
+.fp:hover{
+	transition: 1s;
+	transform:scale(2.5);
+}
+.fp2{
+	position: absolute;
+	top: -54px;
+	width: 120px;
+	height:98px;
+	left: calc(40% - 29px);
+	border-radius:50%;
+	background-size: cover ;
+	background-position: center;
+	border: 3px rgb(112, 171, 179);
+
+}
+.fp2:hover{
+	transition: 1s;
+	transform:scale(1.4);
+}
+
+a.buscad{
+ position: absolute;
+ left: calc(4% - 310px);
+
+}
+#imgb{
+	position: absolute;
+  left: calc(4% - 346px);
+
+}
+
 @media (max-width: 1238px){
 
 
@@ -163,53 +218,5 @@ div.misvideos{
     }
 
 
-
-}
-
-.r {
-  width: 14%;
-  height: 100px;
-  padding: 12px 0px;
-  margin: 6px 0;
-  box-sizing: border-box;
-  border: none;
-  font-size: 20px;
-  text-decoration: none;
-  background-color: lightgreen;
-}
-.contenedorprincipal .contenedor .contenedor-carrusel .video{
-	display: flex;
-	float: flex;
-	display: block;
-}
-
-.fp{
-	width: 134px;
-	height: 95px;
-}
-.fp:hover{
-	transition: 1s;
-	transform:scale(1.5);
-}
-img.fp2{
-	position: absolute;
-	top: -54px;
-	width: 110px;
-	height:93px;
-	left: calc(40% - 59px);
-}
-img.fp2 :hover{
-	transition: 1s;
-	transform:scale(1.5);
-}
-
-a.buscad{
- position: absolute;
- left: calc(4% - 310px);
-
-}
-#imgb{
-	position: absolute;
-  left: calc(4% - 346px);
 
 }

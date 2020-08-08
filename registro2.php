@@ -30,7 +30,7 @@ if (isset($_POST['a'])){
 
 include("conexionbd.php");
  $con = New Conexion();
-$sentencia="insert into registros values('".$NOMBRE_DE_USUARIO."','".$CORREO_ELECTRONICO."','".$CONTRASENA."','".$CONFIRMAR_CONTRASENA."')";
+$sentencia="insert into registros values('".$NOMBRE_DE_USUARIO."','".$CORREO_ELECTRONICO."','".$CONTRASENA."','".$CONFIRMAR_CONTRASENA."','n','0')";
 $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
   echo'<script type="text/javascript">
     alert("Registro exitoso");

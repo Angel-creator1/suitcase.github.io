@@ -115,6 +115,10 @@ a.vl:hover{
  color: rgba(27, 166, 196, 0.64);
 
 }
+a.emp:hover{
+ color: rgb(125, 156, 146);
+
+}
 
 #getbetter{
      font-size: 37px;
@@ -447,8 +451,8 @@ border-bottom: 2px solid blue;
 }
 .context{
 
-width: 147%;
-height: 380px;
+width: 117%;
+height: 394px;
 padding: 3px 0px;
 margin: 2px 1px;
 border: 2px solid blue;

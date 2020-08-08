@@ -12,7 +12,7 @@
    <tr>
   <td>
 
-		 <center><img src="<?php echo $imgper; ?>" class="fp" ></center>
+		 <center><div class="fp" style="background-image: url(<?php echo $imgper; ?>);"></div></center>
 
 
  <center><h3>Cambiar imagen de perfil</h3></center>

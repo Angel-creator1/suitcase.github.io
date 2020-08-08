@@ -50,13 +50,15 @@ $imgper = $fila['Foto_de_perfil'];
 
     <div class="left2">
 			<h4 id="b"><?php 	echo $usuario; ?> </h4>
-		 <center><a href="micuenta.php"><img src="<?php
+		 <center><a href="micuenta.php"><div class="fp2" style="<?php
 		 if (strlen($imgper) < 5  ) {
-		 	echo "img/user2.png";
+		 	echo "background-image: url(img/user2.png)";
 		 }
 		 else{
-			 echo $imgper;
-		 } ?>" class="fp2"></a></center>
+			 echo "background-image: url('$imgper')";
+		 }
+			?>
+		    "></div></a></center>
 
 	 <nav class="men">
 			<ul>

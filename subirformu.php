@@ -20,16 +20,16 @@ include 'sesiones.php';
  	<form method="POST" action="subirformu2.php" enctype="multipart/form-data">
 
   <h2>Crear o digitar id de cuestionario a actualizar</h2>
-   <input type="text" name="id"></input><h3 style="color:rgba(255, 1, 1, 0.82)">*Importante*</h3>
+   <input type="text" name="id" placeholder="id cuestionario"></input><h3 style="color:rgba(255, 1, 1, 0.82)">*Importante*</h3>
    <br>
    <h2>Crear CONTRASEÑA de cuestionario</h2><h3 style="color:rgba(255, 1, 1, 0.82)">*Opcional*</h3>
    <h4>"Si no creas contraseña para tu cuestionario cualquier persona podra realizarlo"</h4>
-    <input type="text" name="pass"></input>
+    <input type="text" name="pass" placeholder="Contraseña"></input>
 <BR>
 <br>
 <br>
  		<h2>Nombre del cuestionario</h2>
- 		<input type="text" name="nombrecues"></input>
+ 		<input type="text" name="nombrecues" placeholder="Nombre cuestionario"></input>
 
 <nav class="tuto" id="inst">
 
@@ -173,7 +173,10 @@ include 'sesiones.php';
 <center><option name="numpreguntas"   value="120"> 120</option></center>
 
 </select>
-
+<br>
+<h2>Subir link de video a recomendar</h2>
+<input type="text" name="video" placeholder="link video">
+<br>
 <br>
 <br>
 <br>
@@ -325,23 +328,20 @@ include 'sesiones.php';
  <h2>Contextualización</h2>
  <h2>Imagen</h2>
  <center><input type="file" name="imagenc"></input><h3>Sube una imagen para la Contextualización</h3></center>
- <center><textarea name="contextualizacion2" rows="4" cols="20" placeholder="contextualizacion" class="context"></textarea></center>
+ <center><textarea name="contextualizacion2" rows="4" cols="20" placeholder="Contextualización" class="context"></textarea></center>
  <h2>Pregunta</h2>
  <h2>Imagen</h2>
  <center><input type="file" name="imagenp"></input><h3>Sube una imagen para la Pregunta</h3></center>
- <center><textarea name="pregunta2" rows="4" cols="20" placeholder="pregunta" class="pregunta"></textarea></center>
+ <center><textarea name="pregunta2" rows="4" cols="20" placeholder="Pregunta" class="pregunta"></textarea></center>
  <h3>opcion1</h3>
- <center><textarea name="opcion1" rows="4" cols="20" placeholder="opcion 1" class="opciones"></textarea></center>
+ <center><textarea name="Opció n1" rows="4" cols="20" placeholder="opcion 1" class="opciones"></textarea></center>
  <h3>OPCIÓN CORRECTA</h3>
- <center><textarea name="opcion2" rows="4" cols="20" placeholder="OPCION CORRECTA" class="opciones"></textarea></center>
+ <center><textarea name="Opción 2" rows="4" cols="20" placeholder="OPCION CORRECTA" class="opciones"></textarea></center>
  <h3>opcion3</h3>
- <center><textarea name="opcion3" rows="4" cols="20" placeholder="opcion 3" class="opciones"></textarea></center>
+ <center><textarea name="Opción 3" rows="4" cols="20" placeholder="opcion 3" class="opciones"></textarea></center>
  <h3>opcion4</h3>
- <center><textarea name="opcion4" rows="4" cols="20" placeholder="opcion 4" class="opciones"></textarea></center>
- <br>
- <br>
- <h2>Subir link de video a recomendar</h2>
- <input type="text" name="video" placeholder="link video">
+ <center><textarea name="Opción 4" rows="4" cols="20" placeholder="opcion 4" class="opciones"></textarea></center>
+
  <br>
  <br>
  <br>

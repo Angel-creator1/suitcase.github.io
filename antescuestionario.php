@@ -20,7 +20,7 @@ include 'cues.php';
   <center><img src="img/fms.png" style="width:480px;height:230px;"></center>
 <br>
 
-    <center><a href="javascript:abrir()" style="font-size: 179%; color:rgb(3, 134, 143);">Empezar cuestionario <?php echo $competencia;?></a></center>
+    <center><a href="javascript:abrir()" style="font-size: 179%; color:rgb(3, 134, 143);" class="emp">Empezar cuestionario <?php echo $competencia;?></a></center>
 
 
 
