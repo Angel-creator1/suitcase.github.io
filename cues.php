@@ -3,6 +3,7 @@
 
 
 $competencia = $_POST['tipos'];
+$competencia2 = $_POST['tipos2'];
 
 $conexion = mysqli_connect("localhost","root","","suitcase");
 $consulta="SELECT * FROM cuestionarios WHERE Componente='$competencia'";

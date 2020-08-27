@@ -18,6 +18,7 @@ while ($fila = $resultado->fetch_array()) {
 
 $Competencia_pregunta = $fila['Competencia_pregunta'];
 $Contextualizacion = $fila['Contextualizacion'];
+$Componente = $fila['Componente'];
 $pregunta = $fila['pregunta'];
 $opcion1 = $fila['opcion1'];
 $opcion2 = $fila['opcion2'];
@@ -115,7 +116,7 @@ $imagen2 = $fila['imagen2'];
 
  ?>
 
- <center> <input type="checkbox" name="Envia" value="<?php echo $id;?>"></input>Listo</center>
+ <center> <input type="checkbox" name="Envia" value="<?php echo $Componente;?>"></input>Listo</center>
  <center><input type="submit" name="Enviar" value="Enviar" class="b"></input></center>
 
  </form>

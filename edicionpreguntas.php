@@ -32,41 +32,41 @@
 
 <center><option name="Componente"   value="nada">...</option></center>
 <center><option name="Componente"   value="Lectura critica">Lectura critica</option></center>
-<center><option name="Componente"  value="Lectura critica2">Lectura critica2</option></center>
-<center><option name="Componente"   value="Lectura critica3">Lectura critica3</option></center>
-<center><option name="Componente"   value="Lectura critica4">Lectura critica4</option></center>
-<center><option name="Componente"   value="Lectura critica5">Lectura critica5</option></center>
-<center><option name="Componente"   value="Lectura critica6">Lectura critica6</option></center>
+<center><option name="Componente"  value="Lectura critica 2">Lectura critica2</option></center>
+<center><option name="Componente"   value="Lectura critica 3">Lectura critica3</option></center>
+<center><option name="Componente"   value="Lectura critica 4">Lectura critica4</option></center>
+<center><option name="Componente"   value="Lectura critica 5">Lectura critica5</option></center>
+<center><option name="Componente"   value="Lectura critica 6">Lectura critica6</option></center>
 <center><option name="Componente"   value="Ingles">Ingles</option></center>
-<center><option name="Componente"   value="Ingles2">Ingles2</option></center>
-<center><option name="Componente"  value="Ingles3">Ingles3</option></center>
-<center><option name="Componente"   value="Ingles4">Ingles4</option></center>
-<center><option name="Componente"   value="Ingles5">Ingles5</option></center>
-<center><option name="Componente"   value="Ingles6">Ingles6</option></center>
+<center><option name="Componente"   value="Ingles 2">Ingles2</option></center>
+<center><option name="Componente"  value="Ingles 3">Ingles3</option></center>
+<center><option name="Componente"   value="Ingles 4">Ingles4</option></center>
+<center><option name="Componente"   value="Ingles 5">Ingles5</option></center>
+<center><option name="Componente"   value="Ingles 6">Ingles6</option></center>
 <center><option name="Componente"   value="Matematicas">Matematicas</option></center>
-<center><option name="Componente"   value="Matematicas2">Matematicas2</option></center>
-<center><option name="Componente"   value="Matematicas3">Matematicas3</option></center>
-<center><option name="Componente"   value="Matematicas4">Matematicas4</option></center>
-<center><option name="Componente"   value="Matematicas5">Matematicas5</option></center>
-<center><option name="Componente"   value="Matematicas6">Matematicas6</option></center>
+<center><option name="Componente"   value="Matematicas 2">Matematicas2</option></center>
+<center><option name="Componente"   value="Matematicas 3">Matematicas3</option></center>
+<center><option name="Componente"   value="Matematicas 4">Matematicas4</option></center>
+<center><option name="Componente"   value="Matematicas 5">Matematicas5</option></center>
+<center><option name="Componente"   value="Matematicas 6">Matematicas6</option></center>
 <center><option name="Componente"   value="Fisica">Fisica</option></center>
-<center><option name="Componente"   value="Fisica2">Fisica2</option></center>
-<center><option name="Componente"   value="Fisica3">Fisica3</option></center>
-<center><option name="Componente"   value="Fisica4">Fisica4</option></center>
-<center><option name="Componente"   value="Fisica5">Fisica5</option></center>
-<center><option name="Componente"   value="Fisica6">Fisica6</option></center>
+<center><option name="Componente"   value="Fisica 2">Fisica2</option></center>
+<center><option name="Componente"   value="Fisica 3">Fisica3</option></center>
+<center><option name="Componente"   value="Fisica 4">Fisica4</option></center>
+<center><option name="Componente"   value="Fisica 5">Fisica5</option></center>
+<center><option name="Componente"   value="Fisica 6">Fisica6</option></center>
 <center><option name="Componente"   value="Ciencias Sociales">Ciencias Sociales</option></center>
-<center><option name="Componente"   value="Ciencias Sociales2">Ciencias Sociales2</option></center>
-<center><option name="Componente"   value="Ciencias Sociales3">Ciencias Sociales3</option></center>
-<center><option name="Componente"   value="Ciencias Sociales4">Ciencias Sociales4</option></center>
-<center><option name="Componente"   value="Ciencias Sociales5">Ciencias Sociales5</option></center>
-<center><option name="Componente"   value="Ciencias Sociales6">Ciencias Sociales6</option></center>
+<center><option name="Componente"   value="Ciencias Sociales 2">Ciencias Sociales2</option></center>
+<center><option name="Componente"   value="Ciencias Sociales 3">Ciencias Sociales3</option></center>
+<center><option name="Componente"   value="Ciencias Sociales 4">Ciencias Sociales4</option></center>
+<center><option name="Componente"   value="Ciencias Sociales 5">Ciencias Sociales5</option></center>
+<center><option name="Componente"   value="Ciencias Sociales 6">Ciencias Sociales6</option></center>
 <center><option name="Componente"   value="Quimica">Quimica</option></center>
-<center><option name="Componente"   value="Quimica2">Quimica2</option></center>
-<center><option name="Componente"   value="Quimica3">Quimica3</option></center>
-<center><option name="Componente"   value="Quimica4">Quimica4</option></center>
-<center><option name="Componente"   value="Quimica5">Quimica5</option></center>
-<center><option name="Componente"   value="Quimica6">Quimica6</option></center>
+<center><option name="Componente"   value="Quimica 2">Quimica2</option></center>
+<center><option name="Componente"   value="Quimica 3">Quimica3</option></center>
+<center><option name="Componente"   value="Quimica 4">Quimica4</option></center>
+<center><option name="Componente"   value="Quimica 5">Quimica5</option></center>
+<center><option name="Componente"   value="Quimica 6">Quimica6</option></center>
 
 
 

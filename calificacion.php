@@ -4,7 +4,9 @@
   <?php
 
 include 'sesiones.php';
-
+$compo = $_POST['Envia'];
+$compo3 = ' segundo intento';
+$compo2 = $compo.$compo3;
 
   if(isset($_POST['Enviar'])){//Validacion de envio de formulario
   if(!empty($_POST['op1'])){
@@ -154,13 +156,35 @@ include 'sesiones.php';
 
 
   }
+  session_start();
+  $conexion = mysqli_connect("localhost","root","","suitcase");
+  $consulta2="SELECT * FROM puntajes WHERE Nombre_usuario='$usuario' and Componente='$compo'" ;
+  $resultado2=mysqli_query($conexion, $consulta2);
+
+
+
+  if ($resultado2) {
+  while ($fila2 = $resultado2->fetch_array()) {
+  $Componente2 = $fila2['Componente'];
+  $puntaje2 = $fila2['puntaje'];
+  }
+  }
+  if (strlen($Componente2)>2) {
+
 
           include("conexionbd.php");
            $con = New Conexion();
 
-          $sentencia="insert into puntajes values('".$_SESSION['usuario']."','".$_POST['Envia']."','".$notab."')";
+          $sentencia="insert into puntajes values('".$_SESSION['usuario']."','".$compo2."','".$notab."')";
           $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
+        }
+else {
+  include("conexionbd.php");
+   $con = New Conexion();
 
+  $sentencia="insert into puntajes values('".$_SESSION['usuario']."','".$_POST['Envia']."','".$notab."')";
+  $resultado=$con->query($sentencia) or die("Error de datos".mysqli_error($con));
+}
 
   ?>
 

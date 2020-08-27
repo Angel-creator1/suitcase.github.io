@@ -62,7 +62,7 @@ $imgper = $fila['Foto_de_perfil'];
 
 	 <nav class="men">
 			<ul>
-				<form method="post" action="antescuestionario.php">
+				<form method="post" action="antescuestionario2.php">
 
 				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos" class="i"></INPUT>
                 <INPUT TYPE="submit" VALUE="Matematicas" name ="tipos" class="i"></INPUT>
