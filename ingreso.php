@@ -8,7 +8,7 @@
 <link rel="icon" href="img/logo.png" type="image/jpg">
 </head>
 <header>
-	<body>	
+	<body>
 
 <br>
 <br>
@@ -24,20 +24,20 @@
 	<td>
 		<br>
 
-	<center><img src="img/logo.png" class="l" alt="fondoregistro"></center>	
-		
+	<center><img src="img/logo.png" class="l" alt="fondoregistro"></center>
+
 
 
 
 <body background="img/fondologin.png">
 
-	
-	
+
+
 	<h2><center> Inicia sesión </center></h2>
 	<form method="POST" action="conexionusuario.php">
 
 
-	
+
 <center><input name="usuario" type="text" placeholder="Correo electronico o Nombre de usuario"></input></center>
 
 
@@ -48,10 +48,10 @@
 
 </form>
 	</div>
-
+  <p><h4><a href="registro.php">Olvidaste tu contraseña?</h4></p></a>
 	<p><h4><a href="registro.php">Si no te has registrado haz click aquí</h4></p></a>
 	<p><h4><a href="ingresoadmin.php">O inicia sesion como administrador aquí</h4></p></a>
-	
+
 </td>
 </table>
 </center>

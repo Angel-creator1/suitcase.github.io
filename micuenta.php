@@ -7,7 +7,10 @@
 	<br>
 	<br>
 	<center><h1 class="c">Mi cuenta</h1></center>
+  <form method="post" action="configusuario.php" enctype="multipart/form-data">
+  <center><input type="submit" value="Configuración" class="sf"></input></center>
 
+  </form>
 	<center><table width="60%"  cellspacing="20" cellpadding="20">
    <tr>
   <td>

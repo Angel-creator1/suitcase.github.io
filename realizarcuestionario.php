@@ -2,8 +2,20 @@
 
  include 'sesiones.php';
  include 'cues.php';
-
+ $PASS = $_POST['pass'];
  $id = $_POST['realizar'];
+
+ $conexion = mysqli_connect("localhost","root","","suitcase");
+ $consulta9="SELECT * FROM cuestionarios_usuarios where id_cuestionario='$id' and password='$PASS'";
+ $resultado9=mysqli_query($conexion, $consulta9);
+
+
+
+ if ($resultado9) {
+   $filas=mysqli_num_rows($resultado9);
+   if ($filas>0) {
+
+
 
 $conexion = mysqli_connect("localhost","root","","suitcase");
 $consulta="SELECT * FROM cuestionarios_usuarios WHERE id_cuestionario='$id'";
@@ -114,6 +126,8 @@ $imagen2 = $fila['imagen2'];
 }
 }
 
+
+
  ?>
 
  <center> <input type="checkbox" name="Envia" value="<?php echo $id;?>"></input>Listo</center>
@@ -122,3 +136,12 @@ $imagen2 = $fila['imagen2'];
  </form>
  </body>
 </html>
+<?php
+}
+}
+    else {
+
+     echo "contraseña incorrectos";
+
+    }
+?>

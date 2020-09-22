@@ -25,7 +25,7 @@ while ($fila2 = $resultado2->fetch_array()) {
 $creador = $fila2['Nombre_usuario'];
 $id7 = $fila2['id_cuestionario'];
 $nombrecues = $fila2['nombre_cuestionario'];
-
+$password = $fila2['password'];
 
  ?>
 
@@ -39,7 +39,18 @@ $nombrecues = $fila2['nombre_cuestionario'];
   <br>
   <h4>Nombre creador:
     <h4 class="busque">&nbsp<?php echo $creador; ?></h4>
-  <form class="" action="realizarcuestionario.php" method="post">
+    <form class="" action="realizarcuestionario.php" method="post">
+    <?php
+
+    if (strlen($password)>0) {
+      echo '<input type="text" name="pass" placeholder="digitar contraseña de cuestionario"></input>';
+    }
+    else {
+
+    }
+
+     ?>
+
     <input type="submit" name="realizar" value="<?php echo $id7; ?>" class="sf3"></input>
   </form>
 </div>

@@ -7,7 +7,7 @@ include 'sesiones.php';
 <br>
 <br>
 <br>
-
+<nav class="principal">
 <center><table>
 <tr>
  <td>
@@ -17,8 +17,14 @@ include 'sesiones.php';
    <h2>Puntaje &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
  </td>
  <td>
-   <h2>borrar</h2>
+   <h2>borrar &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
  </td>
+<td>
+  <h2>fecha &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
+</td>
+<td>
+  <h2>hora</h2>
+</td>
 
 <?php
 
@@ -48,7 +54,7 @@ $puntaje = $fila2['puntaje'];
 <?php echo $puntaje; ?>
 </td>
 <td>
-  aaaaaaaaaaaa
+
 </td>
 
 <?php
