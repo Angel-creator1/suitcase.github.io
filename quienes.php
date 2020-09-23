@@ -19,12 +19,7 @@ include 'sesiones.php';
  <td>
    <h2>borrar &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
  </td>
-<td>
-  <h2>fecha &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</h2>
-</td>
-<td>
-  <h2>hora</h2>
-</td>
+
 
 <?php
 

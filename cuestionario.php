@@ -116,7 +116,7 @@ $imagen2 = $fila['imagen2'];
 
  ?>
 
- <center> <input type="checkbox" name="Envia" value="<?php echo $Componente;?>"></input>Listo</center>
+ <center> <input type="checkbox" name="Envia" value="<?php echo $competencia;?>"></input>Listo</center>
  <center><input type="submit" name="Enviar" value="Enviar" class="b"></input></center>
 
  </form>

@@ -30,7 +30,7 @@ $compo2 = $compo.$compo3;
   foreach($_POST['c'] as $selected2){
 
     $num_countries2 = count($_POST['c']);
-    $nota = 100/40*($num_countries2);
+    $nota = 100/10*($num_countries2);
 
 
     }
@@ -88,7 +88,7 @@ $compo2 = $compo.$compo3;
 
   $totalrespuestas = $num_countries1+$num_countries2+$num_countries3+$num_countries4;
 
-  if ($totalrespuestas>40 && $totalrespuestas<42) {
+  if ($totalrespuestas>10 && $totalrespuestas<12) {
     echo "<h2>Cuestionario finalizado</h2>";
     $notab = $nota-10;
     echo "<h2>Cuestionario finalizado</h2>"; ?>
@@ -104,7 +104,7 @@ $compo2 = $compo.$compo3;
 
 
   }
-  elseif ($totalrespuestas>42 && $totalrespuestas<46 ) {
+  elseif ($totalrespuestas>12 && $totalrespuestas<14 ) {
      $notab = $nota-22;
      echo "<h2>Cuestionario finalizado</h2>";?>
      <h1 class="nota"><?php echo $notab; ?></h1>
@@ -121,7 +121,7 @@ $compo2 = $compo.$compo3;
 
 
   }
-  elseif ($totalrespuestas>46 && $totalrespuestas<54) {
+  elseif ($totalrespuestas>14 && $totalrespuestas<16) {
     $notab = $nota-55;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
@@ -138,7 +138,24 @@ $compo2 = $compo.$compo3;
 
 
   }
-  elseif ($totalrespuestas<40) {
+  elseif ($totalrespuestas>18) {
+    $notab = 0;
+    echo "<h2>Cuestionario finalizado</h2>";?>
+    <h1 class="nota"><?php echo $notab; ?></h1>
+    <?php
+    echo "<h3>Puntaje obtenido</h3>";
+    echo "<br>";
+    echo "<h2>Parece que no has estado muy antento, has respondido doble en demasiadas preguntas
+    <p>Te recomendamos ver las siguientes asesorias</p>";
+
+
+
+
+
+
+
+  }
+  elseif ($totalrespuestas<10) {
     $notab = $nota-2;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
@@ -151,9 +168,15 @@ $compo2 = $compo.$compo3;
 
 
   }
-  elseif ($totalrespuestas=40) {
+  elseif ($totalrespuestas==10) {
     $notab = $nota;
-
+    echo "<h2>Cuestionario finalizado</h2>";?>
+    <h1 class="nota"><?php echo $notab; ?></h1>
+    <?php
+    echo "<h3>Puntaje obtenido</h3>";
+    echo "<br>";
+    echo "
+          <h4>Te recomendamos ver las siguientes asesorias</h4>";
 
   }
   session_start();
@@ -188,27 +211,144 @@ else {
 
   ?>
 
+<?php if ($_POST['Envia'] == 'Matematicas') {
+  echo '
 
   <br>
 
 <img src="img/publicidad/amazon.jpg" class="am">
 <img src="img/publicidad/rapi.png" class="rap">
-  <iframe width="235" height="133" src="https://www.youtube.com/embed/Q1IjahY52o4" frameborder="0" allow="accelerometer;
-  autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2J3EpDBCXoY"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <iframe width="235" height="133" src="https://www.youtube.com/embed/ZD1QrIe--_Y" frameborder="0" allow="accelerometer;
-   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/lzVLS3vRdNA"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jwAlSnDGewo"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  <iframe width="235" height="133" src="https://www.youtube.com/embed/_8ZDK_E5p84" frameborder="0" allow="accelerometer;
-   autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img src="img/cocacola.png" style="width:523px;height:170px;">
-
+<br>
+<br>
+<br>
     <a  class="i2" href="panelusuario.php">Volver al inicio</a>
 
 
-</nav></center>
+</nav></center>';
 
+}
+else if ($_POST['Envia'] == 'Ingles') {
+  echo '
+
+  <br>
+
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8UrmFyuFas"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iyD8-1oilzc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jwAlSnDGewo"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
+
+
+</nav></center>';
+}
+else if ($_POST['Envia'] == 'Lectura critica') {
+  echo '
+
+  <br>
+
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zfwNx0vmLNM"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lM-k2NSazRQ".
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/_pm_I10AHWQ"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
+
+
+</nav></center>';
+}
+else if ($_POST['Envia'] == 'Quimica') {
+  echo '
+
+  <br>
+
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bg7xhxHCxSA"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wvjQmvH-GOs"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
+
+
+</nav></center>';
+}
+else if ($_POST['Envia'] == 'Fisica') {
+  echo '
+
+  <br>
+
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YL-90EGOMlU"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ypwlQHuOWSQ"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
+
+
+</nav></center>';
+}
+else if ($_POST['Envia'] == 'Ciencias sociales') {
+  echo '
+
+  <br>
+
+<img src="img/publicidad/amazon.jpg" class="am">
+<img src="img/publicidad/rapi.png" class="rap">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ld86vngI_qs"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wgkxVZ5YcBk"
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/9LMlD7L4Vdk"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+    <a  class="i2" href="panelusuario.php">Volver al inicio</a>
+
+
+</nav></center>';
+}
+?>
 
 
 
