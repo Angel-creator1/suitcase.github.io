@@ -66,7 +66,7 @@
 
 		<div class="a4">
 			<br>
-			<h2>Componente:&nbsp<?php echo $Componente2;  ?> &nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp<?php echo $puntaje2;  ?></h2>
+			<h2>Componente:&nbsp</h2><h2 style="color:rgb(17, 8, 241)"><?php echo $Componente2;  ?></h2><br> <h2>&nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp</h2><h1 style="color:rgb(17, 8, 241)">&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $puntaje2;  ?></h1>
 
 		</div>
   <br>

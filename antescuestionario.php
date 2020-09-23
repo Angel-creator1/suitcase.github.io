@@ -18,7 +18,7 @@ $_POST['']
   <center><h3>Una vez envies el cuestionario tu resultado sera guardado en tu perfil
               y no podras repetirlo </h3></center>
 
-  <center><img src="img/fms.png" style="width:480px;height:230px;"></center>
+
 <br>
 
     <center><a href="javascript:abrir()" style="font-size: 179%; color:rgb(3, 134, 143);" class="emp">Empezar cuestionario <?php echo $competencia2;?></a></center>
