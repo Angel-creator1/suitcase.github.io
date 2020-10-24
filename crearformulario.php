@@ -68,13 +68,12 @@ $nom_cues = $fila3['nombre_cuestionario'];
 
             ?>
 
-<br>
+
            		<div class="a2">
-           			<br>
+
            			<h4>Id cuestionario:</h4>
-                <h4><?php echo $idcues3;  ?></h4>
-                <br>
-                <h4>Nombre cuestionario:&nbsp<?php echo $nom_cues; ?></h4>
+                <h4 style="color:rgb(0, 0, 0);"><?php echo $idcues3;  ?></h4>
+                <h4>Nombre cuestionario:&nbsp</h4><h4 style="color:rgb(0, 0, 0);"><?php echo $nom_cues; ?></h4>
 
 <form class="" action="micuestio.php" method="post">
   <h3 style="color:rgb(3, 126, 19);">Ver mi cuestionario:</h3><input type="submit" name="mi" value="<?php echo $idcues3;  ?>" class="misc"></input>

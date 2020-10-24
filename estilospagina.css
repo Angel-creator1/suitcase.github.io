@@ -3,7 +3,7 @@
 @import url(imagenes.css);
 
 
-	
+
 header {
 	width: 100%;
 	height: 60px;
@@ -29,7 +29,7 @@ h1,h3,,p{
 }
 
 h1.s {
-    font-size: 250%;
+    font-size: 230%;
     float: left;
      }
 
@@ -63,7 +63,7 @@ img.user{
 	width:69px;
 	height: 70px;
 	padding:none;
-	
+
 }
 
 img.am{
@@ -163,17 +163,18 @@ div.a {
   margin: 3px 4px;
   background-color:#eaeff0;
   border: #124670 2px solid;
-  
+
 
 
       }
 			div.a2 {
 			  width: 496px;
-				height: 230px;
+				height: 500px;
 			  padding: 10px;
-			  border: 2px;
+			  border: 2px solid blue;
 			  margin: 3px 4px;
 			  background-color: white;
+
 
 
 			      }
@@ -214,10 +215,10 @@ div.a {
 							padding: 10px;
 							border: 2px;
 							margin: 0;
-							background-color: rgba(226, 225, 168, 0.81);
+							background-color: rgba(70, 195, 146, 0.53);
 							position: absolute;
 							left: calc(60%);
-							top:357px;
+							top:479px;
 
 
 									}
@@ -252,14 +253,14 @@ display: none;
 }
 
 div.p2 {
-	
+
 	background-color: rgb(208, 221, 223);
  	width: 92%;
  	height: 40%;
  	padding:70px;
 }
 div.imgs2 {
-	
+
 	text-align: center;
 	background-color:white;
  	width: 92%;
@@ -293,7 +294,7 @@ div.sui {
 
 div.trabajamoscon{
 
-	
+
 	text-align: center;
 	background-color:rgb(208, 221, 223);
  	width: 92%;
@@ -302,7 +303,7 @@ div.trabajamoscon{
 }
 
  div.regi {
-  
+
 
   width: 360px;
   height: 436px;
@@ -407,11 +408,13 @@ button.r:hover {
 }
 
 div.pie {
-	
+
     width: 100%;
 	height: 300px;
-	background-color: #fff;	
+	background-color: #fff;
 	margin-top: 0px;
+	position: absolute;
+	top: 7000px;
 
 
 
@@ -508,7 +511,7 @@ border-bottom: 2px solid blue;
 }
 .context{
 
-width: 117%;
+width: 87%;
 height: 394px;
 padding: 3px 0px;
 margin: 2px 1px;
@@ -517,7 +520,7 @@ border: 2px solid blue;
 }
 .pregunta{
 
-	width: 129%;
+	width: 89%;
 	height: 194px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -527,7 +530,7 @@ border: 2px solid blue;
 }
 .opciones{
 
-	width: 107%;
+	width: 77%;
 	height: 120px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -568,15 +571,15 @@ height: 40px;
 padding: 4px 0px;
 margin: 3px 0;
 border: none;
-background-color: rgb(98, 10, 241);
+background-color: rgb(0, 158, 236);
 font-size: 20px;
 border-radius: 20px;
-color: rgb(22, 241, 241);
+color: rgb(255, 255, 255);
 
 
 }
 input.sf:hover[type=submit] {
-	background-color: rgba(92, 15, 235, 0.42);
+	background-color: rgba(15, 189, 235, 0.42);
 
 }
 input.sf2[type=submit] {
@@ -586,15 +589,15 @@ height: 20px;
 padding: 0px 0px;
 margin: 0px 0;
 border: none;
-background-color: rgb(98, 10, 241);
+background-color: rgb(0, 158, 236);
 font-size: 14px;
 border-radius: 20px;
-color: rgb(22, 241, 241);
+color: rgb(255, 255, 255);
 
 
 }
 input.sf2:hover[type=submit] {
-	background-color: rgba(92, 15, 235, 0.42);
+	background-color: rgba(15, 189, 235, 0.42);
 
 }
 input.sf3[type=submit] {
@@ -604,17 +607,17 @@ height: 40px;
 padding: 5px 0px;
 margin: 3px 0;
 border: none;
-background-color: rgb(98, 10, 241);
+background-color: rgb(0, 158, 236);
 font-size: 16px;
 border-radius: 20px;
-color: rgb(22, 241, 241);
+color: rgb(255, 255, 255);
 
 
 
 
 }
 input.sf3:hover[type=submit] {
-	background-color: rgba(92, 15, 235, 0.42);
+	background-color: rgba(15, 189, 235, 0.42);
 
 }
 input.misc[type=submit] {
@@ -749,7 +752,7 @@ top:
 		}
 	}
 
-	
+
 
 
 /*aqui terminan las medias*/

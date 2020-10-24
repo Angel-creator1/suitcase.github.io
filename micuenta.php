@@ -21,7 +21,7 @@
  <center><h3>Cambiar imagen de perfil</h3></center>
  <form method="post" action="subirfoto.php" enctype="multipart/form-data">
  <input type="file" name="subirfoto"></input>
- <input type="submit" value subirimagen class="sf" name="subir"></input>
+ <input type="submit" value="Subir imagen" class="sf" name="subir"></input>
 </form>
   </td>
 	<td>
@@ -66,7 +66,7 @@
 
 		<div class="a4">
 			<br>
-			<h2>Componente:&nbsp</h2><h2 style="color:rgb(17, 8, 241)"><?php echo $Componente2;  ?></h2><br> <h2>&nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp</h2><h1 style="color:rgb(17, 8, 241)">&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $puntaje2;  ?></h1>
+			<h2>Componente:&nbsp</h2><h2 style="color:rgb(17, 8, 241)"><?php echo $Componente2;  ?></h2> <h2>&nbsp&nbsp&nbsp&nbsp&nbspPuntaje:&nbsp</h2><h1 style="color:rgb(17, 8, 241)">&nbsp&nbsp&nbsp&nbsp&nbsp<?php echo $puntaje2;  ?></h1>
 
 		</div>
   <br>
@@ -78,7 +78,7 @@
 		</table>
   </center>
 
-
+<br><br><br>
   <div class="al2">
   <h3>Mas cuestionarios completados</h3>
 

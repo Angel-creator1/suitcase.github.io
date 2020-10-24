@@ -49,8 +49,8 @@ nav.men {
 }
 h4#b{
 	position: absolute;
-	top: 47px;
-	left: calc(50% - 83px);
+	top: 27px;
+	left: calc(50% - 119px);
 
 }
 div.left2 {
@@ -105,7 +105,7 @@ div.misvideos{
 	top: 13px;
 	left: calc(51%);
 	width: 48%;
-	background-color: rgba(233, 154, 166, 0.41);
+	background-color: rgba(51, 244, 244, 0.75);
 	padding: 8px;
 	margin: 6px 5px;
 

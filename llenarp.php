@@ -159,6 +159,9 @@ include 'sesiones.php';
  <h2>Contextualización</h2>
  <h2>Imagen</h2>
  <center><input type="file" name="imagenc"></input><h3>Sube una imagen para la Contextualización</h3></center>
+ <br>
+ <br>
+ <br>
  <center><textarea name="contextualizacion2" rows="4" cols="20" placeholder="Contextualización" class="context"></textarea></center>
  <h2>Pregunta</h2>
  <h2>Imagen</h2>

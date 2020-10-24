@@ -61,7 +61,7 @@ $imgper = $fila['Foto_de_perfil'];
 		    "></div></a></center>
 
 	 <nav class="men">
-			<ul>
+
 				<form method="post" action="antescuestionario2.php">
 
 				<INPUT TYPE="submit" VALUE="Lectura critica"  name ="tipos" class="i"></INPUT>
@@ -79,11 +79,12 @@ $imgper = $fila['Foto_de_perfil'];
 		<header>
 
 			<div class="contenedor">
-
-				<h1 class="s"><img src="img/logo.png">SUITCASE</h1>
+<nav class="menu">
+				<img src="img/logo.png"><h1 class="s">SUITCASE</h1>
 				<input type="checkbox" id="menu-bar">
 				<label class="icon-menu"for="menu-bar"></label>
-				<nav class="menu">
+
+
 					<img src="img/buscador.png" style="height:28px;width:32px;">
 					<form class="" action="resultados.php" method="post" style="width:400px;">
 						<input type="text" name="buscarr" placeholder="Buscar id cuestionario o nombre de usuario"></input>
@@ -100,3 +101,18 @@ $imgper = $fila['Foto_de_perfil'];
 		</header>
 
 		<br>
+<br>
+<br>
+
+		<div class="pie">
+
+
+		<br><br><br>
+
+			<h4 class="lpie">Eduplays</h4>
+			<center><h5 class="lpie">Derechos reservados de Suitcase</h5></center>
+			<center><h4 class="lpie">Telefono: 3203765372</h4></center>
+
+			<center><img src="img/redes.jpg" alt="imagen de Facebook, twitter, Instagram" class="redes"></center>
+
+		</div>

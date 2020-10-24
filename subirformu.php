@@ -7,7 +7,7 @@ include 'sesiones.php';
  ?>
 
 <br>
- <center><div><table>
+ <center><center><div><table>
 
  	<td>
  		<br>
@@ -19,17 +19,17 @@ include 'sesiones.php';
  	<h1 color="red" class="c"><center> Crear cuestionario</center></h1>
  	<form method="POST" action="subirformu2.php" enctype="multipart/form-data">
 
-  <h2>Crear o digitar id de cuestionario </h2>
-   <input type="text" name="id" placeholder="id cuestionario"></input><h3 style="color:rgba(255, 1, 1, 0.82)">*Importante*</h3>
+   <center><h2>Crear o digitar id de cuestionario </h2></center>
+   <center><input type="text" name="id" placeholder="id cuestionario"></input><h3 style="color:rgba(255, 1, 1, 0.82)">*Importante*</h3></center>
    <br>
-   <h2>Crear CONTRASEÑA de cuestionario</h2><h3 style="color:rgba(255, 1, 1, 0.82)">*Opcional*</h3>
-   <h4>"Si no creas contraseña para tu cuestionario cualquier persona podra realizarlo"</h4>
-    <input type="text" name="pass" placeholder="Contraseña"></input>
+   <center><h2>Crear CONTRASEÑA de cuestionario</h2><h3 style="color:rgba(255, 1, 1, 0.82)">*Opcional*</h3></center>
+   <center><h4>"Si no creas contraseña para tu cuestionario cualquier persona podra realizarlo"</h4></center>
+    <center><input type="text" name="pass" placeholder="Contraseña"></input></center>
 <BR>
 <br>
 <br>
- 		<h2>Nombre del cuestionario</h2>
- 		<input type="text" name="nombrecues" placeholder="Nombre cuestionario"></input>
+ 		<center><h2>Nombre del cuestionario</h2></center>
+ 		<center><input type="text" name="nombrecues" placeholder="Nombre cuestionario"></input></center>
 
 <nav class="tuto" id="inst">
 
@@ -214,7 +214,7 @@ include 'sesiones.php';
  <br>
 
  <input type="submit" value="<?php  echo $_POST['id']; ?>" class="i2" name="id"></input>
-
+</center>
 </center>
  <script>
 
