@@ -21,18 +21,19 @@
 
         <div class="miscuestionarios">
 
-				<h3>Cuestionarios que te pueden interesar:</h3>
+				<h3>Cuestionarios que te pueden interesar:</h3><br>
 
-				<div class="a3">
-
-				  <h4>Id cuestionario:</h4>
-				  <h4 class="busque">Angelddddddddddddddngelito el crack bro</h4>
-				  <br>
+				<div>
+				<hr><hr><hr><hr><hr><hr><hr><hr>	
+				<center>
+				<h4>Id cuestionario:</h4>
+				  <h4 class="busque">kevin fc12345prueba</h4>
+				  
 				  <h4>Nombre cuestionario:</h4>
-				    <h4 class="busque">ngelito el crack bro</h4>
-				  <br>
+				    <h4 class="busque">prueba de cuestionario</h4>
+				 
 				  <h4>Nombre creador:
-				    <h4 class="busque"> Angel</h4>
+				    <h4 class="busque"> kevin fc</h4>
 				    <form class="" action="realizarcuestionario.php" method="post">
 				    <?php
 
@@ -45,10 +46,95 @@
 
 				     ?>
 
-				    <input type="submit" name="realizar" value="Angelddddddddddddddngelito el crack bro" class="sf3"></input>
+				    <input type="submit" name="realizar" value="kevin fc12345prueba" class="sf3"></input>
 				  </form>
-				</div>
+				  </center>
+
+				  </div>
+
+
+				 <br>
+				 <hr><hr><hr><hr><hr><hr><hr><hr>
+				 <br>
+
+				 <div>
+				<center>
+				<h4>Id cuestionario:</h4>
+				  <h4 class="busque">kevin fc12345prueba</h4>
+				  
+				  <h4>Nombre cuestionario:</h4>
+				    <h4 class="busque">prueba de cuestionario</h4>
+				 
+				  <h4>Nombre creador:
+				    <h4 class="busque"> kevin fc</h4>
+				    <form class="" action="realizarcuestionario.php" method="post">
+				    <?php
+
+				    if (strlen($password)>0) {
+				      echo '<input type="text" name="pass" placeholder="digitar contraseña de cuestionario"></input>';
+				    }
+				    else {
+
+				    }
+
+				     ?>
+
+				    <input type="submit" name="realizar" value="kevin fc12345prueba" class="sf3"></input>
+				  </form>
+				  </center>
+
+				  </div>
+
+
+				 <br>
+				 <hr><hr><hr><hr><hr><hr><hr><hr>
+				 <br>
+
+				 <div>	
+				<center>
+				<h4>Id cuestionario:</h4>
+				  <h4 class="busque">kevin fc12345prueba</h4>
+				  
+				  <h4>Nombre cuestionario:</h4>
+				    <h4 class="busque">prueba de cuestionario</h4>
+				 
+				  <h4>Nombre creador:
+				    <h4 class="busque"> kevin fc</h4>
+				    <form class="" action="realizarcuestionario.php" method="post">
+				    <?php
+
+				    if (strlen($password)>0) {
+				      echo '<input type="text" name="pass" placeholder="digitar contraseña de cuestionario"></input>';
+				    }
+				    else {
+
+				    }
+
+				     ?>
+
+				    <input type="submit" name="realizar" value="kevin fc12345prueba" class="sf3"></input>
+				  </form>
+				  </center>
+
+				  </div>
+
+
+				 <br>
+				 <hr><hr><hr><hr><hr><hr><hr><hr>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+				 <br>
+
+
+
 </div>
+
+
 
 
 

@@ -67,7 +67,7 @@ nav.principal{
   position: absolute;
 	top: 73px;
 	width: 80%;
-	height: 530px;
+	height: 1400px;
   background-color: white;
 	left: calc(30% - 160px);
 
@@ -82,7 +82,7 @@ nav.principal2{
 	width: 80%;
   background-color: white;
 	left: calc(30% - 160px);
-	height: 630px;
+	height: 1400px;
 
 
 }
@@ -94,7 +94,7 @@ top: 13px;
 left: calc(1%);
 width: 48%;
 background-color:rgba(96, 134, 164, 0.31) ;
-
+height: 1330px;
 padding: 8px;
 margin: 6px 5px;
 

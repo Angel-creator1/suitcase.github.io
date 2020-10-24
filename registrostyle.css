@@ -1,26 +1,26 @@
 
 
      h2,h4{font-family: 'Pacifico';
-     margin: 25px;
-      color: blue;
+     color: blue;
+      }
 
-
-     }
-
-
-
-
-
+  body{
+  background-image: url(img/fondologin2.jpg);
+  background-size: 1380px 619px;
+  background-position: 0px 40px ;
+  background-repeat: no-repeat;
+}
+ 
     div.reg {
+  position: absolute;    
+  left:850px; 
+
   width: 360px;
+  height: 525px;
+
   padding: 10px;
-  border: 0px solid black;
-  margin: -31px;
-  height: 578px;
+  
   background-color: white;
-
-
-
 
 }
 

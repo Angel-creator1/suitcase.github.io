@@ -2,9 +2,8 @@
 @import url(banner.css);
 @import url(imagenes.css);
 
-body {
-	font-family: 'Pacifico';
-	}
+
+	
 header {
 	width: 100%;
 	height: 60px;
@@ -18,8 +17,14 @@ header {
 }
 
 /*Haches */
+ h2,h4{font-family: 'Pacifico';
 
-h1,h3,h2,p{
+     margin: 25px;
+      color: rgb(107,156,196);
+
+
+     }
+h1,h3,,p{
 	color: #124670;
 }
 
@@ -51,6 +56,16 @@ h4.busque{
 /*fin de haches*/
 /*imgs */
 
+
+
+img.user{
+
+	width:69px;
+	height: 70px;
+	padding:none;
+	
+}
+
 img.am{
 	width: 234px;
 	height: 160px;
@@ -66,7 +81,7 @@ img.rap{
 	left: calc(3%);
 }
 	 img.hoja1 {
-			 	width: 28%;
+			 	width: 19%;
 			 	height: 13%;
 			 }
 	img.icfes {
@@ -137,19 +152,24 @@ header.contenedor {
  	width: 100%;
  	margin-bottom: 25px;
  }
+
+
+
 div.a {
   width: 680px;
 	height: 173px;
   padding: 10px;
-  border: 2px;
+  border: 20px;
   margin: 3px 4px;
-  background-color: white;
+  background-color:#eaeff0;
+  border: #124670 2px solid;
+  
 
 
       }
 			div.a2 {
 			  width: 496px;
-				height: 335px;
+				height: 230px;
 			  padding: 10px;
 			  border: 2px;
 			  margin: 3px 4px;
@@ -172,7 +192,7 @@ div.a {
 
 									div.a4 {
 									  width: 496px;
-										height: 160px;
+										height: 300px;
 									  padding: 10px;
 									  border: 2px;
 									  margin: 3px 4px;
@@ -181,7 +201,7 @@ div.a {
 
 									      }
 
-			div.al {
+			  div.al {
 			  width: 514px;
 			  padding: 10px;
 			  border: 2px;
@@ -201,6 +221,9 @@ div.a {
 
 
 									}
+div{
+	border-color: black;
+}
 div.ventanapub{
 width: 550px;
 height: 440px;
@@ -229,13 +252,20 @@ display: none;
 }
 
 div.p2 {
-	width: 80%;
-	height:80%;
+	
+	background-color: rgb(208, 221, 223);
+ 	width: 92%;
+ 	height: 40%;
+ 	padding:70px;
 }
 div.imgs2 {
-	width: 600px
-	height:800px;
+	
 	text-align: center;
+	background-color:white;
+ 	width: 92%;
+ 	height: 95%;
+    padding: 20px;
+}
 }
 div.contenedor {
 	height: 80%
@@ -260,24 +290,52 @@ div.sui {
  top: 1600px;
 
 }
-div.reg {
-width: 360px;
-padding: 10px;
-border: 0px solid black;
-margin: 31px;
-height: 438px;
-background-color: white;
+
+div.trabajamoscon{
+
+	
+	text-align: center;
+	background-color:rgb(208, 221, 223);
+ 	width: 92%;
+ 	height: 95%;
+    padding: 20px;
+}
+
+ div.regi {
+  
+
+  width: 360px;
+  height: 436px;
+  padding: 10px;
+  background-color: white;
 
 
 }
 
+div.julioprofe{
+	text-align: center;
+	background-color:rgb(208, 221, 223);
+ 	height: 90%;
+ 	width: 92%;
+ 	height: 95%;
+    padding: 30px;
+}
+div.imgicfes{
+	text-align: center;
+	background-color:white;
+ 	height: 90%;
+ 	width: 92%;
+ 	height: 95%;
+    padding: 30px;
+}
  section {
  	width: 100%;
  	margin-bottom: 25px;
  	height: 200%;
  }
  section.primerpagina{
- 	background-color: #b5ffff;
+ 	background-color:rgb(208, 221, 223);
+
  	width: 92%;
  	height: 95%;
 
@@ -348,14 +406,14 @@ button.r:hover {
 	color: red;
 }
 
-nav.pie {
-  width: 100%;
+div.pie {
+	
+    width: 100%;
 	height: 300px;
-	background-color: rgb(208, 221, 223);
-	position: absolute;
-	top: 4000px;
-	border-color: rgb(33, 67, 102);
-	border: 4px;
+	background-color: #fff;	
+	margin-top: 0px;
+
+
 
 
 }
@@ -401,7 +459,7 @@ color:darkcyan;
 
 nav.cal{
 	width: 888px;
-	height: 1292px;
+	height: 1392px;
 	background-color: white;
 	position: absolute;
 	top: 70px;
@@ -450,7 +508,7 @@ border-bottom: 2px solid blue;
 }
 .context{
 
-width: 59%;
+width: 117%;
 height: 394px;
 padding: 3px 0px;
 margin: 2px 1px;
@@ -459,7 +517,7 @@ border: 2px solid blue;
 }
 .pregunta{
 
-	width: 79%;
+	width: 129%;
 	height: 194px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -469,7 +527,7 @@ border: 2px solid blue;
 }
 .opciones{
 
-	width: 69%;
+	width: 107%;
 	height: 120px;
 	padding: 3px 0px;
 	margin: 2px 1px;
@@ -550,6 +608,8 @@ background-color: rgb(98, 10, 241);
 font-size: 16px;
 border-radius: 20px;
 color: rgb(22, 241, 241);
+
+
 
 
 }
@@ -688,5 +748,8 @@ top:
 			width: 1160px;
 		}
 	}
+
+	
+
 
 /*aqui terminan las medias*/

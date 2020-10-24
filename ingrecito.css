@@ -1,14 +1,12 @@
 
+     h2 {font-style:'Bowlby One SC';;
 
+     }
 
-     h2{font-family: 'Pacifico' , 'cursive';
-
-   }
-
-     h2,h4{font-family: 'Pacifico';
+     h2,h4{font-style:'Bowlby One SC';;
 
      margin: 25px;
-      color: blue;
+      color: rgb(107,156,196);
 
 
      }
@@ -17,19 +15,19 @@
 
 
     div.reg {
-  width: 350px;
-  padding: 2px;
+  position: absolute;    
+  left:850px; 
+
   width: 360px;
   padding: 10px;
-  border: 0px solid black;
-  margin: 0;
-  height: 370px;
+
+  
+  height: 446px;
   background-color: white;
 
 
-
-
 }
+
 
 
 img.l {
@@ -76,15 +74,16 @@ input[type=text] {
 
 }
 input[type=submit] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  
+  width: 300px;
+  height: 40px;
+
   border: none;
   background-color: lightblue;
   font-size: 17px;
   border-radius: 20px;
-  color: blue;
 
+  color: blue;
 
 }
 input[type=password] {
@@ -102,7 +101,12 @@ input[type=password] {
 }
 
 @media(max-width: 800px) {
-      body{
-        background:transparent;
-      }
+
+ }
+
+body{
+  background-image: url(img/fondologin2.jpg);
+  background-size: 1380px 619px;
+  background-position: 0px 40px ;
+  background-repeat: no-repeat;
 }

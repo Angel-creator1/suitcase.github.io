@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
-	<title>SUITCASE</title>
-	<link rel="icon" href="img/logo.png" type="image/jpg">
+  <title>SUITCASE</title>
+  <link rel="icon" href="img/logo.png" type="image/jpg">
 <link rel="stylesheet" type="text/css" href="estilospagina.css">
 <link rel="stylesheet" href="font/fontello.css">
 <meta charset="utf-8">
@@ -17,7 +17,8 @@
 			<input type="checkbox" id="menu-bar">
 			<label class="icon-menu"for="menu-bar"></label>
 			<nav class="menu">
-				<a href="inicio.php">INICIO</a>
+
+				<a href="pagina.html">INICIO</a>
 				<a href="ingreso.php">INGRESAR</a>
 		    <a href="registro.php">REGISTRO</a>
 			</nav>
@@ -64,18 +65,20 @@
         	<h1 ><center>BIENVENIDO A SUITCASE</center></h1>
           <br>
         	<center>
+            <h3>
 
         	<p><div class="a">
 
-        		<h2>
+        
+            <br>
 
         		SUITCASE es una plataforma en la que tendrás la posibilidad de demostrar y mejorar tus capacidades intelectivas para presentar diferentes tipos de
 						examenes que te ayudarán en tu vida profesional.
 						No solo podras disfrutar de las pruebas exclusivas de suitcase si no tambien podras crear tus propias pruebas y realizar las de otros usuarios.
+            
 
 
-
-        	</h2>
+        	</h3>
         	</p></div></center>
           <br>
 
@@ -107,32 +110,46 @@
 </div>
 
 <br>
-<br>
-<br>
 
 
+<center>
 <div class="imgs2">
-<p><img src="img/hoja1.jpg" class="hoja1"><img src="img/logoinicio.png" class="logo2"></p>
+<p><img src="img/logoinicio.png" class="logo2"></p>
 </div>
+</center>
+<br>
 <br>
 
 
-  <h2><center><div class="p2">En suitcase tendras una preparación completa para tu prueba de Estado; tendras la posibilidad de presentar de 3 a 5 simulacros para mejorar cada vez más en tu progreso ademas de nuestro acompañamiento en cada competencia de la prueba por medio de
-       pequeños cuestionarios en los que te proporcionaremos la información suficiente para presentar una prueba que en realidad pueda destacar.</center></h2></div></p>
+  <h2>
+    <center>
+      <div class="p2">En suitcase tendras una preparación completa para tu prueba de Estado; tendras la posibilidad de presentar de 3 a 5 simulacros para mejorar cada vez más en tu progreso ademas de nuestro acompañamiento en cada competencia de la prueba por medio de
+       pequeños cuestionarios en los que te proporcionaremos la información suficiente para presentar una prueba que en realidad pueda destacar.
+     </center>
+   </h2>
+       
+     </p>
 
+     
+  
+     
      <br>
      <br>
      <br>
-     <br>
-     <br>
-     <br>
-
+<center>
+<div>
+<div class="trabajamoscon">
      <h1><center>Trabajamos con:</center></h1>
+</div>
+<div class="imgicfes">
      <center><img src="img/ICFES.jpg" class ="icfes"><img src="img/icfes2.png" class="icfes"></center>
      <br>
+</div>   
+<div class="trabajamoscon">  
      <center><h3>Si quieres mas informacion sobre la prueba saber 11 puedes ingresar a la pagina oficial del icfes </h3></center>
+
+
      <h3><center><a href="https://www.icfes.gov.co/web/guest/acerca-examen-saber-11">aqui</a></center></h3>
-     <br>
      <br>
      <br>
      <br>
@@ -140,9 +157,14 @@
       </h2>
        </p>
 
+</div>
+</center>
+<br>
+<br>
+<center>
  <div class="julioprofe">
 
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/wbUPZcQtc80" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <center><iframe width="70%" height="330" src="https://www.youtube.com/watch?v=wbUPZcQtc80&ab_channel=suitcase" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </center>
 
     </center>
@@ -151,7 +173,6 @@
 <br>
 <br>
 
-<br>
 
 
 
@@ -205,52 +226,57 @@ function carrusel(contenedo){
 
     </script>
 
-		<center><div class="reg">
 
-			<td><!--la tabla es necesaria para que despliegue todo hacia abajo con el div-->
-				<br>
+		<center>
 
-			<center><img src="img/logo.png" class="l" alt="logo"></center>
+    <div class="regi">
 
+		<center><img src="img/logo.png" class="l" alt="logo"></center>
 
-			<h2><center> Registrate gratis </center></h2>
+		<h2><center> Registrate gratis </center></h2>
 
 
 		<form method="post" action="registro2.php">
 
 		<h5>* minimo 7 caractéres *</h5>
-		<p><center><input name="n" type="text" placeholder="Nombre de usuario"></p></center>
 
-		<p><center><input name="co" type="email" placeholder="Correo electronico"></center></p>
+		<center><input name="n" type="text" placeholder="Nombre de usuario">
+		<center><input name="co" type="email" placeholder="Correo electronico">
 
 		<h5>* minimo 9 caractéres *</h5>
-		<p><center> <input  name="c" type="password" placeholder="Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/></center></p>
 
-		<p><center><input  name="cc" type="password" placeholder="Confirmar contraseña"></center></p>
+		<input  name="c" type="password" placeholder="Contraseña" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"/>
 
+		<input  name="cc" type="password" placeholder="Confirmar contraseña">
+    
+    <br>
 
-		<p><center><input name="a" type="checkbox" value="si"><a href="">Acepto terminos y condiciones</a><center></input></p>
+		<input name="a" type="checkbox" value="si">
+    <a href="">Acepto terminos y condiciones</input>
 
-		<p><center><input name="p" type="submit" value="Registrarme"></input></center></p>
+    <br><br>
 
-	</td>
+		<input name="p" type="submit" value="Registrarme"></input>
+
 		</form>
-	</div></center>
 
+	</div>
 
-<nav class="pie">
+</center>
+<br>
 
-  <br>
-	<br>
+<div class="pie">
+
+  
+<br><br><br>
 
 	<h4 class="lpie">Eduplays</h4>
 	<center><h5 class="lpie">Derechos reservados de Suitcase</h5></center>
 	<center><h4 class="lpie">Telefono: 3203765372</h4></center>
-	<br>
-	<br>
+	
 	<center><img src="img/redes.jpg" alt="imagen de Facebook, twitter, Instagram" class="redes"></center>
 
-</nav>
+</div>
 
 </body>
 </html>

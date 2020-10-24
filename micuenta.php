@@ -21,7 +21,7 @@
  <center><h3>Cambiar imagen de perfil</h3></center>
  <form method="post" action="subirfoto.php" enctype="multipart/form-data">
  <input type="file" name="subirfoto"></input>
- <input type="submit" value"subirimagen" class="sf" name="subir"></input>
+ <input type="submit" value subirimagen class="sf" name="subir"></input>
 </form>
   </td>
 	<td>
