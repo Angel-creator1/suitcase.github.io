@@ -94,7 +94,7 @@ $compo2 = $compo.$compo3;
     echo "<h2>Cuestionario finalizado</h2>"; ?>
     <h1 class="nota"><?php echo $notab; ?></h1>
     <?php
-    echo "<h2>Puntaje obtenido</h2>";
+    echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
     echo "<br>";
     echo "<h2> has respondido doble
      en alguna pregunta ten mas cuidado</h2>
@@ -109,7 +109,7 @@ $compo2 = $compo.$compo3;
      echo "<h2>Cuestionario finalizado</h2>";?>
      <h1 class="nota"><?php echo $notab; ?></h1>
      <?php
-     echo "<h3>Puntaje obtenido</h3>";
+     echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
      echo "<br>";
      echo "has respondido doble
       en muchas pregunta ¡ten mucho cuidado!</h2>
@@ -126,7 +126,7 @@ $compo2 = $compo.$compo3;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
     <?php
-    echo "<h3>Puntaje obtenido</h3>";
+    echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
     echo "<br>";
     echo "<h2>Parece que no has estado muy antento, has respondido doble en demasiadas preguntas
     <p>Te recomendamos ver las siguientes asesorias</p>";
@@ -143,7 +143,7 @@ $compo2 = $compo.$compo3;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
     <?php
-    echo "<h3>Puntaje obtenido</h3>";
+    echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
     echo "<br>";
     echo "<h2>Parece que no has estado muy antento, has respondido doble en demasiadas preguntas
     <p>Te recomendamos ver las siguientes asesorias</p>";
@@ -160,7 +160,7 @@ $compo2 = $compo.$compo3;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
     <?php
-    echo "<h3>Puntaje obtenido</h3>";
+    echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
     echo "<br>";
     echo "<h2>Te ha faltado responder algunas preguntas</h2
           <h4>Te recomendamos ver las siguientes asesorias</h4>";
@@ -173,7 +173,7 @@ $compo2 = $compo.$compo3;
     echo "<h2>Cuestionario finalizado</h2>";?>
     <h1 class="nota"><?php echo $notab; ?></h1>
     <?php
-    echo "<h3>Puntaje obtenido</h3>";
+    echo '<h3 style="color:rgb(1, 34, 252);">Puntaje obtenido</h3>';
     echo "<br>";
     echo "
           <h4>Te recomendamos ver las siguientes asesorias</h4>";
@@ -216,8 +216,7 @@ else {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2J3EpDBCXoY"
  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -240,8 +239,7 @@ else if ($_POST['Envia'] == 'Ingles') {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l8UrmFyuFas"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -263,8 +261,6 @@ else if ($_POST['Envia'] == 'Lectura critica') {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zfwNx0vmLNM"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -287,8 +283,7 @@ else if ($_POST['Envia'] == 'Quimica') {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bg7xhxHCxSA"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -308,8 +303,7 @@ else if ($_POST['Envia'] == 'Fisica') {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YL-90EGOMlU"
  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -329,8 +323,7 @@ else if ($_POST['Envia'] == 'Ciencias sociales') {
 
   <br>
 
-<img src="img/publicidad/amazon.jpg" class="am">
-<img src="img/publicidad/rapi.png" class="rap">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ld86vngI_qs"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

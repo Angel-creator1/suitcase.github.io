@@ -93,7 +93,6 @@ $imgper = $fila['Foto_de_perfil'];
 					<a href="panelusuario.php">INICIO</a>
 					<a href="micuenta.php">MI CUENTA</a>
 					<a href="crearformulario.php">CREAR</a>
-					<a href="notificaciones.php"><img src="img/not.svg" class="not"></a>
 				  <a href="salir.php">SALIR</a>
 				</nav>
 

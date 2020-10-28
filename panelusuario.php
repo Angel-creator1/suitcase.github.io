@@ -24,14 +24,14 @@
 				<h3>Cuestionarios que te pueden interesar:</h3><br>
 
 				<div>
-				<hr><hr><hr><hr><hr><hr><hr><hr>	
+				<hr><hr><hr><hr><hr><hr><hr><hr>
 				<center>
 				<h4>Id cuestionario:</h4>
 				  <h4 class="busque">kevin fc12345prueba</h4>
-				  
+
 				  <h4>Nombre cuestionario:</h4>
 				    <h4 class="busque">prueba de cuestionario</h4>
-				 
+
 				  <h4>Nombre creador:
 				    <h4 class="busque"> kevin fc</h4>
 				    <form class="" action="realizarcuestionario.php" method="post">
@@ -61,10 +61,10 @@
 				<center>
 				<h4>Id cuestionario:</h4>
 				  <h4 class="busque">kevin fc12345prueba</h4>
-				  
+
 				  <h4>Nombre cuestionario:</h4>
 				    <h4 class="busque">prueba de cuestionario</h4>
-				 
+
 				  <h4>Nombre creador:
 				    <h4 class="busque"> kevin fc</h4>
 				    <form class="" action="realizarcuestionario.php" method="post">
@@ -90,14 +90,14 @@
 				 <hr><hr><hr><hr><hr><hr><hr><hr>
 				 <br>
 
-				 <div>	
+				 <div>
 				<center>
 				<h4>Id cuestionario:</h4>
 				  <h4 class="busque">kevin fc12345prueba</h4>
-				  
+
 				  <h4>Nombre cuestionario:</h4>
 				    <h4 class="busque">prueba de cuestionario</h4>
-				 
+
 				  <h4>Nombre creador:
 				    <h4 class="busque"> kevin fc</h4>
 				    <form class="" action="realizarcuestionario.php" method="post">

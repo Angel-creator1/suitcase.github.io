@@ -29,21 +29,25 @@ $password = $fila2['password'];
 
  ?>
 
-<div class="a3">
+ <br>
+ <hr><hr><hr><hr><hr><hr><hr><hr>
+ <br>
 
-  <h4>Id cuestionario:</h4>
-  <h4 class="busque"><?php echo $id7;  ?></h4>
-  <br>
+ <div>
+<center>
+<h4>Id cuestionario:</h4>
+  <h4 class="busque"><?php echo $id7; ?></h4>
+
   <h4>Nombre cuestionario:</h4>
-    <h4 class="busque">&nbsp<?php echo $nombrecues; ?></h4>
-  <br>
+    <h4 class="busque"><?php echo $nombrecues; ?></h4>
+
   <h4>Nombre creador:
-    <h4 class="busque">&nbsp<?php echo $creador; ?></h4>
+    <h4 class="busque"> <?php echo $creador; ?></h4>
     <form class="" action="realizarcuestionario.php" method="post">
     <?php
 
     if (strlen($password)>0) {
-      echo '<input type="text" name="pass" placeholder="digitar contraseña de cuestionario"></input>';
+      echo '<input type="text" name="pass" placeholder="Digitar contraseña de cuestionario"></input>';
     }
     else {
 
@@ -53,7 +57,9 @@ $password = $fila2['password'];
 
     <input type="submit" name="realizar" value="<?php echo $id7; ?>" class="sf3"></input>
   </form>
-</div>
+  </center>
+
+  </div>
 <br>
 <br>
 

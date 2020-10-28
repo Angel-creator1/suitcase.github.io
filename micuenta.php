@@ -3,14 +3,10 @@
       include 'cues.php';;
 			 ?>
 
-	<br>
-	<br>
-	<br>
-	<center><h1 class="c">Mi cuenta</h1></center>
-  <form method="post" action="configusuario.php" enctype="multipart/form-data">
-  <center><input type="submit" value="Configuración" class="sf"></input></center>
 
-  </form>
+	<center><h1 class="c">Mi cuenta</h1></center>
+<br>
+<br>
 	<center><table width="60%"  cellspacing="20" cellpadding="20">
    <tr>
   <td>
@@ -26,15 +22,7 @@
   </td>
 	<td>
 	           </td>
-	<td>
-    <center>
-			<h3>Mi Progreso</h3>
-			<center><svg version="1.1" width="205" height="100" viewBox="0 0 120 120">
-    <circle cx="60" cy="60" r="37"
-            fill="RoyalBlue" />
-  </svg></center>
-		</center>
-  </td>
+
 </tr>
 <tr></tr>
 <center>
