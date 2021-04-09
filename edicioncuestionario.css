@@ -1,0 +1,33 @@
+.context{
+	width: 114%;
+	height: 620px;
+}
+.pregunta{
+	width: 500px;
+	height: 335px;
+}
+.opciones{
+	width: 570px;
+	height: 160px;
+}
+body{
+	background-color: lightblue;
+}
+
+
+h1{
+	color: blue;
+	font-size: 50px;
+}
+input[type=submit] {
+
+  width: 40%;
+  padding: 10px 0px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid blue;
+  font-size: 20px;
+  font-style: 'arial';
+  font-weight: bold;
+}
